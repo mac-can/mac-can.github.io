@@ -1,9 +1,21 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
+  - title: "Drivers"
+    url: /drivers/
+#  - title: "Wrapper"
+#    url: /wrapper/
+#  - title: "Apps"
+#    url: /apps/
+  - title: "Posts"
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
+  - title: "Categories"
+    url: /categories/
+  - title: "Privacy Policy"
+    url: /privacy/ # https://mac-can.com/html/privacy.html
+  - title: "Imprint"
+    url: /imprint/ # https://mac-can.com/html/impressum.html

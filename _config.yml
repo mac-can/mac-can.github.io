@@ -13,16 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+title                    : "Running CAN and CAN FD on a Mac®"
+name                     : "UV Software, Berlin"
+email                    : "info@mac-can.com"
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+description              : >-
+  Running CAN and CAN FD on a Mac® is the mission of the MacCAN project.
+  There are many companies in the world offering multifarious CAN hardware and CAN software.
+  Unfortunately, few of them offer a driver for the Mac.
+  UV Software provides macOS® user-space drivers for USB-to-CAN interfaces from PEAK-System, Kvaser AB, Rusoku Technologies.
+twitter_username         : uv_software
+github_username          : mac-can
+minimal_mistakes_skin    : dark
+logo                     : "/assets/images/MacCAN-logo.png"
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+search                   : false
 
 # Build settings
 markdown: kramdown
@@ -30,9 +40,10 @@ remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog//page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Reading Files
 include:
   - _pages
 
@@ -57,35 +68,51 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name             : "Uwe Vogt, UV&nbsp;Software"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Running CAN and CAN FD on a Mac"
+  location         : "Berlin, Germany"
+  email            : # "info@mac-can.com"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:info@mac-can.com"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://mac-can.com"
+    - label: "Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://uv-software.com/wordpress"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/uv_software"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/uvsoftware.berlin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/uwe-vogt-software"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/mac-can"
 
+# Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/uv_software"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/uvsoftware.berlin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/uwe-vogt-software"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/mac-can"
 
 defaults:
   # _posts
@@ -95,10 +122,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true # false
       read_time: true
-      comments: true
+      comments: false # true
       share: true
-      related: true
+      related: false # true
   # _pages
   - scope:
       path: "_pages"
