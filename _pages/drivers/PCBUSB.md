@@ -3,7 +3,7 @@ permalink: /drivers/libPCBUSB.html
 layout: single
 toc: true
 toc_sticky: true
-title: macOS® User-Space Driver for PCAN-USB Interfaces from PEAK-System
+title: macOS User-Space Driver for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Library
 type: driver
 latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Library/OS_X_Library_for_PCANUSB_v0.10.tar.gz
@@ -64,7 +64,7 @@ Only the following devices from PEAK-System Technik are supported:
 Since version 0.8 (Build 689 of September 20, 2017):
 - PCAN-USB FD (product code: IPEH-004022)
 
-For technical specifications, prices and delivery conditions see [PEAK´s website](https://www.peak-system.com/Product-Overview.333.0.html?&L=1).
+For technical specifications, prices and delivery terms see [PEAK´s website](https://www.peak-system.com/Product-Overview.333.0.html).
 
 ### Change-log
 

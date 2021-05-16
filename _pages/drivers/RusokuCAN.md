@@ -3,7 +3,7 @@ permalink: /drivers/RusokuCAN/
 layout: single
 toc: true
 toc_sticky: true
-title: macOS&reg; User-Space Driver for TouCAN USB Interfaces from Rusoku
+title: macOS User-Space Driver for TouCAN USB Interfaces from Rusoku
 tag: MacCAN-TouCAN
 type: driver
 latest: https://github.com/mac-can/RusokuCAN/releases/download/v0.2/artifacts.zip
@@ -13,8 +13,8 @@ github: https://github.com/mac-can/RusokuCAN
 issues: https://github.com/mac-can/RusokuCAN/issues
 ---
 Rusoku Technologies is an innovative engineering team based in Lithuania, Europe.
-They offer CAN adapters at a reasonable price;
-drivers and utilities for Windows&reg; and Linux&reg; are available as open source.
+They offer CAN adapters at a reasonable price.
+Drivers and utilities for Windows and Linux are available as open-source.
 A macOS user-space driver for TouCAN USB interfaces from Rusoku is provided by UV&nbsp;Software.
 
 [Download]({{page.latest}}){: .btn .btn--primary}
@@ -27,6 +27,7 @@ A macOS user-space driver for TouCAN USB interfaces from Rusoku is provided by U
 The macOS driver for TouCAN USB Interfaces from Rusoku is based on MacCAN-Core which is an abstraction (or rather a wrapper) of Apple´s IOUsbKit to create USB user-space drivers for CAN interfaces from various vendors under macOS.
 The GitHub repository contains the source code for the MacCAN-TouCAN driver and several alternatives to build dynamic libraries for macOS, either as a C++ class library (_libTouCAN_), or as a CAN&nbsp;API&nbsp;V3 wrapper library (_libUVCANTOU_), as well as some example programs and my beloved CAN utilities `can_moni` and `can_test`.
 
+The MacCAN-TouCAN driver comes with an CAN&nbsp;API&nbsp;V3 compatible API.
 CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems. See header file `CANAPI.h` for the CAN&nbsp;API&nbsp;V3 wrapper specification.
 
 ### Supported Devices
@@ -34,7 +35,7 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 Only the following devices from Rusoku Technologies are supported:
 - TouCAN USB (Model F4FS1)
 
-For technical specifications, prices and delivery conditions see [Rusoku´s website](https://www.rusoku.com/products).
+For technical specifications, prices and delivery terms see [Rusoku´s website](https://www.rusoku.com/products).
 
 ### Change-log
 
@@ -46,7 +47,7 @@ For technical specifications, prices and delivery conditions see [Rusoku´s webs
 
 ### Known Bugs and Caveats
 
-For a list of known bugs and caveats see [Issues]({{page.issues}}) tracked in the GitHub repo.
+For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the GitHub repo.
 
 ### License
 

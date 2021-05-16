@@ -3,7 +3,7 @@ permalink: /apps/demo/PCBUSB-Monitor.html
 layout: single
 toc: true
 toc_sticky: true
-title: CAN Monitor App for macOS® (Demo)
+title: CAN Monitor App for macOS (Demo)
 tag: PCBUSB-Monitor
 type: demo
 latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.3.dmg
@@ -50,9 +50,9 @@ The MacCAN Monitor App for PCAN-USB interfaces is freeware without any warranty 
 
 Please note the copyright and license agreement.
 
-### References
+### Credits
 
-Toolbar icons by Oxygen Team; GNU Lesser General Public License
+Toolbar icons by Oxygen Team (GNU Lesser General Public License, Version 3).
 
 ### Trademarks
 
