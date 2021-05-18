@@ -32,5 +32,5 @@ A macOS&reg; user-space driver for PCAN-USB Interfaces is provided from PEAK-Sys
 ## CAN Interface API by UV&nbsp;Software
 
 [CAN&nbsp;API&nbsp;V3](/wrapper/canapi-v3/) is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems.
-The macOS&reg; driver libraries come with an CAN&nbsp;API&nbsp;V3 compatible API in the SDK,
-or wrapper libraries are available as separate SDKs for macOS&reg; as well as for Windows&reg;.
+The macOS&reg; driver libraries come with a CAN&nbsp;API&nbsp;V3 compatible API in the SDK,
+or alternatively wrapper libraries are available as separate SDKs for macOS&reg; as well as for Windows&reg;.
