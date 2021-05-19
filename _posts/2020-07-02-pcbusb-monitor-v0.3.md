@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "PCBUSB-Monitor - Version 0.3 released and made Open Source"
+title:  "PCBUSB-Monitor - Version 0.3 released and made open-source"
 tag: PCBUSB-Monitor
 categories: Change-log Monitor Demos Apps macOS Peak PCBUSB
 artifacts: https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:maccan_monitor_app
