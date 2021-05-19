@@ -29,32 +29,33 @@ Furthermore, it can be used with the Qt Serial Bus API on a Mac: [Qt CAN Bus exa
 
 ### Feature Matrix
 
-| Feature | Description |
-| ------- | ----------- |
-| CAN 2.0 | supported: PCAN-USB, PCAN-USB FD |
-| CAN FD | supported: PCAN-USB FD only |
-| Bit rate, CAN 2.0 | high speed: up to 1 Mbps |
-| Bit rate, CAN FD | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
-| 11-bit identifier (STD) | supported in CAN 2.0 and CAN FD mode |
-| 29-bit identifier (XTD) | supported in CAN 2.0 and CAN FD mode |
-| Remote frames (RTR) | supported in CAN 2.0 mode only |
-| Error frames (ERR) | _not realized yet_ |
-| Error indicator (ESI) | supported in CAN FD mode only |
-| Monitor mode (MON) | supported (listen-only mode) |
-| Receive queue (FIFO) | up to 65'536 CAN messages <br/> ([Blocking Read](https://gist.github.com/mac-can/8fea17c5e8398478a2e065dd37fe5f6f) supported) |
-| Identifier filtering | _not realized yet_ |
-| Non-ISO CAN FD mode | _HW settings cannot be changed by the library_ |
-| Software interface (API) | compatible to PEAK´s PCANBasic API _with some limitations_ |
-| Dynamic library (`.dylib`)| **Binary for x86_64 only** |
-| Static library (`.a`) | _not available_ |
-| Source code | **_not available_** |
-| M1 Chip | _not supported_ |
-| Objective-C Wrapper | available |
-| Python Wrapper | available |
-| Swift Wrapper | _not available_ |
-| CAN&nbsp;API&nbsp;V3 Wrapper | available for [macOS](/wrapper/PCANBasic/) and [Windows](/wrapper/windows/PCANBasic/) |
-| Utilities | CLI utilities: [`can_moni`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) and [`can_test`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) |
-| Examples | C++, Python, Objective-C ([Demo App](https://github.com/mac-can/PCBUSB-Monitor)) |
+| Feature | Supported | Remarks |
+| ------- |:---------:| ------- |
+| CAN 2.0 | :heavy_check_mark: | supported by PCAN-USB, PCAN-USB FD |
+| CAN FD | :heavy_check_mark: | supported by PCAN-USB FD only |
+| Bit rate, CAN 2.0 | :heavy_check_mark: | high speed: up to 1 Mbps |
+| Bit rate, CAN FD | :heavy_check_mark: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
+| 11-bit identifier (STD) | :heavy_check_mark: | CAN 2.0 and CAN FD mode |
+| 29-bit identifier (XTD) | :heavy_check_mark: | CAN 2.0 and CAN FD mode |
+| Remote frames (RTR) | :heavy_check_mark: | CAN 2.0 mode only |
+| Error frames (ERR) | :x: | _not realized yet_ |
+| Error indicator (ESI) | :heavy_check_mark: | CAN FD mode only |
+| Monitor mode (MON) | :heavy_check_mark: | listen-only mode (transmitter off) |
+| Receive queue (FIFO) | :heavy_check_mark: | up to 65'536 CAN messages |
+| Blocking read | :heavy_check_mark: | via a file descriptor and system call `select`; see [example](https://gist.github.com/mac-can/8fea17c5e8398478a2e065dd37fe5f6f) |
+| Identifier filtering | :x: | _not realized yet_ |
+| Non-ISO CAN FD mode | (:heavy_check_mark:) | _HW settings of the device cannot be changed by the library_ |
+| Software interface (API) | :heavy_check_mark: | compatible to PEAK´s PCANBasic API _with some limitations_ |
+| Dynamic library (`.dylib`) | :heavy_check_mark: | **_binary for x86_64 only_** |
+| Static library (`.a`) | :heavy_check_mark: | _not available_ |
+| Source code | :x: | **_not available_** |
+| M1 Chip | :x: | _not supported_ |
+| Objective-C Wrapper | :heavy_check_mark: | available |
+| Python Wrapper | :heavy_check_mark: | available |
+| Swift Wrapper | :x: | _not available_ |
+| CAN&nbsp;API&nbsp;V3 Wrapper | :heavy_check_mark: | available for [macOS](/wrapper/PCANBasic/) and [Windows](/wrapper/windows/PCANBasic/) |
+| Utilities | :heavy_check_mark: | CLI utilities: [`can_moni`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) and [`can_test`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) |
+| Examples | :heavy_check_mark: | C++, Python, Objective-C ([Demo App](https://github.com/mac-can/PCBUSB-Monitor)) |
 
 ### Supported Devices
 
