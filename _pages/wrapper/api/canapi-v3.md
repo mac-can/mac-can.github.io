@@ -6,7 +6,7 @@ toc_sticky: true
 title: CAN Interface API by UV Software
 ---
 CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems.
-Due to the fact that the CAN APIs of the different OEMs are not compatible with each other, I have defined a CAN Interface Wrapper specification.
+Due to the fact that the CAN APIs of the different OEMs are not compatible with each other, UV&nbsp;Software has defined a CAN Interface Wrapper specification.
 Its goal is to have multi-vendor, cross-platform CAN Interface API.
 
 ## CAN Interface Wrapper Specification
@@ -17,12 +17,12 @@ It was developed for use by (simple hand-coded) CANopen applications and migrate
 ### CAN API V1
 
 What works on microcontrollers should also work on PC.
-So I started to use this interface definition as a wrapper specification for different CAN devices from various vendors: e.g. for IXXAT, PEAK, Vector, Kvaser, and also for Linux-CAN (aka SocketCAN).
+The interface definition was then used as a wrapper specification for different CAN devices from various vendors: e.g. for IXXAT, PEAK, Vector, Kvaser, and also for Linux-CAN (aka SocketCAN).
 
 ### CAN API V2
 
 Dealing around with 14 virtual Basic-CAN messages boxes and a FIFO upon a virtual Full-CAN message box was a little bit over-engineered and error-prone.
-So I optimized the interface definition to have an easy to use API following an _init-start-read-write-stop-exit_ pattern.
+Version 2 optimized the interface definition to have an easy to use API following an _init-start-read-write-stop-exit_ pattern.
 
 ### CAN API V3
 
@@ -76,9 +76,9 @@ or alternatively wrapper libraries are available as separate SDKs for macOS as w
 
 | CAN&nbsp;API&nbsp;V3 SDK | macOS&reg;<br/>Driver Library | macOS&reg;<br/>Wrapper Library | Windows&reg;<br/>Wrapper Library |
 |:-------------- |:--------------------:|:---------------------:|:-----------------------:|
-| [TouCAN USB Interfaces](/drivers/RusokuCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :x: |
-| [CAN Leaf Interfaces](/drivers/KvaserCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :heavy_check_mark: |
-| [PCAN-USB Interfaces](/drivers/libPCBUSB.html) | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| [TouCAN USB Interfaces](/wrapper/RusokuCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :x: |
+| [CAN Leaf Interfaces](/wrapper/KvaserCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :heavy_check_mark: |
+| [PCAN-USB Interfaces](/wrapper/PCANBasic/) | :x: | :heavy_check_mark: | :heavy_check_mark: |
 
 _<sup>*)</sup> The wrapper API is included in the SDK of the driver library._
 

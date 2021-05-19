@@ -12,8 +12,8 @@ srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.tar.g
 github: https://github.com/uv-software/PCANBasic-Wrapper
 issues: https://github.com/uv-software/PCANBasic-Wrapper/issues
 ---
-The PCANBasic DLL provides an easy-to-use API (Application Programming Interface) for all PCAN interfaces from PEAK-System Technik, Darmstadt.
-For the realization of multi-vendor applications UV&nbsp;Software provides a CAN&nbsp;API&nbsp;V3 compatible wrapper library.
+The PCANBasic DLL provides an easy to use API (Application Programming Interface) for all PCAN interfaces from PEAK-System Technik, Darmstadt.
+For the realization of multi-vendor applications UV&nbsp;Software provides a CAN&nbsp;API&nbsp;V3 compatible wrapper library build upon PEAK´s PCANBasic DLL.
 
 [Download]({{page.latest}}){: .btn .btn--primary}
 [Sources (zip)]({{page.srczip}}){: .btn .btn--primary}
