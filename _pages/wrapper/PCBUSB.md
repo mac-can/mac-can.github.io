@@ -1,5 +1,5 @@
 ---
-permalink: /wrapper/PCANBasic
+permalink: /wrapper/PCANBasic/
 layout: single
 toc: true
 toc_sticky: true

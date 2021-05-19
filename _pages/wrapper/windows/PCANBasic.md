@@ -1,5 +1,5 @@
 ---
-permalink: /wrapper/windows/PCANBasic
+permalink: /wrapper/windows/PCANBasic/
 layout: single
 toc: true
 toc_sticky: true

@@ -1,5 +1,5 @@
 ---
-permalink: /wrapper/RusokuCAN
+permalink: /wrapper/RusokuCAN/
 layout: single
 toc: true
 toc_sticky: true

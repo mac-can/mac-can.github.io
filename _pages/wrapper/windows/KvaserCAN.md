@@ -1,5 +1,5 @@
 ---
-permalink: /wrapper/windows/KvaserCAN
+permalink: /wrapper/windows/KvaserCAN/
 layout: single
 toc: true
 toc_sticky: true
