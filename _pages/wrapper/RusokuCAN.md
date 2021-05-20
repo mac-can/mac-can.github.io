@@ -12,7 +12,7 @@ For the realization of multi-vendor CAN applications UV&nbsp;Software provides a
 
 ## macOS
 
-The CAN API V3 Wrapper Library for macOS is included in the [MacCAN-RusokuCAN](/drivers/RusokuCAN/) library SDK.
+The CAN API V3 Wrapper Library for macOS is included in the [MacCAN-TouCAN](/drivers/RusokuCAN/) library SDK.
 
 ## Windows
 

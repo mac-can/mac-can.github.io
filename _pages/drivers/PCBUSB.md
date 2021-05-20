@@ -27,7 +27,7 @@ See the [MacCAN](https://www.mac-can.com/) website for details.
 The library comes with an Objective-C wrapper and a Demo App: [MacCAN Monitor App](/apps/demo/PCBUSB-Monitor.html) \
 Furthermore, it can be used with the Qt Serial Bus API on a Mac: [Qt CAN Bus example](https://doc.qt.io/qt-5/qtserialbus-can-example.html)
 
-### Feature Matrix
+### Features
 
 | Feature | Supported | Remarks |
 | ------- |:---------:| ------- |
