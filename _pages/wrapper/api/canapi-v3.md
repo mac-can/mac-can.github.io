@@ -32,41 +32,12 @@ Additionally it provides companion modules for bit-rate conversion and message f
 
 ## CAN Interface API, Version 3
 
+{% include figure image_path="/assets/images/canapi_macos.png" alt="CAN API V3 for macOS" caption="CAN API V3 on macOS&reg; (Copyright &copy; 2012-2021 by UV Software, Berlin)" %}
+
 ### API
 
 In case of doubt the source code:
-
-```C
-#if (OPTION_CANAPI_LIBRARY != 0)
-extern int can_test(int32_t library, int32_t channel, uint8_t mode, const void *param, int *result);
-extern int can_init(int32_t library, int32_t channel, uint8_t mode, const void *param);
-#else
-extern int can_test(int32_t channel, uint8_t mode, const void *param, int *result);
-extern int can_init(int32_t channel, uint8_t mode, const void *param);
-#endif
-extern int can_exit(int handle);
-extern int can_kill(int handle);
-
-extern int can_start(int handle, const can_bitrate_t *bitrate);
-extern int can_reset(int handle);
-
-extern int can_write(int handle, const can_message_t *message, uint16_t timeout);
-extern int can_read(int handle, can_message_t *message, uint16_t timeout);
-
-extern int can_status(int handle, uint8_t *status);
-extern int can_busload(int handle, uint8_t *load, uint8_t *status);
-
-extern int can_bitrate(int handle, can_bitrate_t *bitrate, can_speed_t *speed);
-extern int can_property(int handle, uint16_t param, void *value, uint32_t nbyte);
-
-extern char *can_hardware(int handle);
-extern char *can_software(int handle);
-
-#if (OPTION_CANAPI_LIBRARY != 0)
-extern char *can_library(int handle);
-#endif
-extern char* can_version(void);
-```
+{% include figure image_path="/assets/images/canapi_c_api.png" alt="CAN API V3 (C API)" caption="CAN API V3 C Interface (Copyright &copy; 2004-2021 by UV Software, Berlin)" %}
 See header file `can_api.h` for a description of the provided functions.
 
 ### SDKs
