@@ -7,7 +7,7 @@ title: CAN Interface API by UV Software
 ---
 CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems.
 Due to the fact that the CAN APIs of the different OEMs are not compatible with each other, UV&nbsp;Software has defined a CAN Interface Wrapper specification.
-Its goal is to have multi-vendor, cross-platform CAN Interface API.
+Its goal is to have a multi-vendor, cross-platform CAN Interface API.
 
 ## CAN Interface Wrapper Specification
 
@@ -52,8 +52,3 @@ or alternatively wrapper libraries are available as separate SDKs for macOS as w
 | [PCAN-USB Interfaces](/wrapper/PCANBasic/) | :x: | :heavy_check_mark: | :heavy_check_mark: |
 
 _<sup>*)</sup> The wrapper API is included in the SDK of the driver library._
-
-### Dual-License
-
-This work is dual-licensed under the terms of the BSD 2-Clause "Simplified" License and under the terms of the GNU General Public License v3.0 (or any later version).
-You can choose between one of them if you use this work in whole or in part.
