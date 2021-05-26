@@ -46,8 +46,7 @@ USB interface and CAN baud rate must be chosen once the program is started; they
 
 ### License
 
-The MacCAN Monitor App for PCAN-USB interfaces is freeware without any warranty or support!
-
+The MacCAN Monitor App for PCAN-USB interfaces is freeware without any warranty or support! \
 Please note the copyright and license agreement.
 
 ### Credits

@@ -9,7 +9,7 @@ title:  MacCAN
 There are many companies offering multifarious CAN hardware and CAN software.
 Unfortunately, few of them provide a driver for the Mac.
 
-**UV&nbsp;Software provides macOS&reg; user-space drivers for USB-to-CAN interfaces from various manufacturers.**
+**UV&nbsp;Software provides macOS&reg; user-space drivers for USB-to-CAN interfaces from various vendors.**
 
 ## TouCAN USB Interfaces from Rusoku
 [Rusoku Technologies](https://rusoku.com) is an innovative engineering team based in Lithuania, Europe.

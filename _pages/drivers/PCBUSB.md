@@ -27,6 +27,8 @@ See the [MacCAN](https://www.mac-can.com/) website for details.
 The library comes with an Objective-C wrapper and a Demo App: [MacCAN Monitor App](/apps/demo/PCBUSB-Monitor.html) \
 Furthermore, it can be used with the Qt Serial Bus API on a Mac: [Qt CAN Bus example](https://doc.qt.io/qt-5/qtserialbus-can-example.html)
 
+Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper Library](/wrapper/PCANBasic/) for macOS._
+
 ### Features
 
 | Feature | Supported | Remarks |
@@ -81,8 +83,7 @@ For a list of known bugs and caveats see the `README` file delivered with each r
 
 ### License
 
-The PCBUSB library is freeware without any warranty or support!
-
+The PCBUSB library is freeware without any warranty or support! \
 Please note the copyright and license agreement.
 
 ### Trademarks

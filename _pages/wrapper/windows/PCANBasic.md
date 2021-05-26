@@ -27,7 +27,7 @@ The PCANBasic wrapper library provides a CAN&nbsp;API&nbsp;V3 compatible API for
 
 The GitHub repository contains the source code for the PCANBasic wrapper library and several alternatives to build dynamic link libraries, either as a C++ class library (_uvPeakCAN.dll_), or as a CAN&nbsp;API&nbsp;V3 wrapper library (_u3canpcb.dll_), as well as some example programs and my beloved CAN utilities `can_moni.exe` and `can_test.exe`.
 
-Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper Library for macOS](/wrapper/PCANBasic/)._
+Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper Library](/wrapper/PCANBasic/) for macOS._
 
 ### Change-log
 
@@ -45,26 +45,17 @@ For a list of supported device see [PEAK´s website](https://www.peak-system.com
 
 For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the GitHub repo.
 
-### License
+### Dual-License
 
-PCANBasic-Wrapper is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-PCANBasic-Wrapper is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License
-along with PCANBasic-Wrapper.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+This work is dual-licensed under the terms of the BSD 2-Clause "Simplified" License and under the terms of the GNU General Public License v3.0 (or any later version).
+You can choose between one of them if you use this work in whole or in part.
 
 ### Trademarks
 
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
-PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany.
+PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany. \
+All other company, product and service names mentioned herein are trademarks, registered trademarks or service marks of their respective owners.
 
 ### Hazard Note
 
