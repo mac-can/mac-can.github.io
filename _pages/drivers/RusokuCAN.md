@@ -13,7 +13,7 @@ github: https://github.com/mac-can/RusokuCAN
 issues: https://github.com/mac-can/RusokuCAN/issues
 ---
 Rusoku Technologies is an innovative engineering team based in Lithuania, Europe.
-They offer CAN adapters at a reasonable price.
+They offer CAN adapter at a reasonable price.
 Drivers and utilities for Windows and Linux are available as open-source.
 A macOS user-space driver for TouCAN USB interfaces from Rusoku is provided by UV&nbsp;Software.
 

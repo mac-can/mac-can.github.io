@@ -20,6 +20,7 @@ These projects are developed and maintained in my spare time.
 If you like them (all of them, or just one) I would be very happy if you make a donation to my work.
 
 [Support via PayPal](https://paypal.me/uvsoftware){: .btn .btn--primary}
+[Sponsor via GibHub](https://github.com/sponsors/mac-can){: .btn .btn--primary}
 
 ## Contact
 Uwe Vogt uv-software<br>
