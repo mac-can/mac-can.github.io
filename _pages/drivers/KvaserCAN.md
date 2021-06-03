@@ -16,9 +16,9 @@ The Swedish company Kvaser AB supplies advanced CAN solutions to engineers desig
 They offer a wide range of CAN hardware and CAN software, mainly for applications under Windows but also under Linux.
 A macOS user-space driver for CAN Leaf Interfaces from Kvaser is provided by UV&nbsp;Software.
 
-[~~Download~~]({{page.latest}}){: .btn .btn--light-outline}
-[~~Sources (zip)~~]({{page.srczip}}){: .btn .btn--light-outline}
-[~~Sources (tar.gz)~~]({{page.srctar}}){: .btn .btn--light-outline}
+[Download]({{page.latest}}){: .btn .btn--primary}
+[Sources (zip)]({{page.srczip}}){: .btn .btn--primary}
+[Sources (tar.gz)]({{page.srctar}}){: .btn .btn--primary}
 [@GitHub]({{page.github}}){: .btn .btn--primary}
 
 ## MacCAN-KvaserCAN Driver
@@ -40,6 +40,14 @@ Only the following devices from Kvaser AB are supported:
 Note: _**Leaf Pro HS v2** devices can currently only be operated in **CAN 2.0 mode**!_
 
 For technical specifications, prices and delivery terms see [Kvaser´s website](https://www.kvaser.com/products-services/our-products/#/?pc_int=usb).
+
+### Change-log
+
+{% for post in site.posts %}
+{% if post.categories contains 'Change-log' and post.tag == 'MacCAN-KvaserCAN' %}
+{{ post.content }}
+{% endif %}
+{% endfor %}
 
 ### Known Bugs and Caveats
 

@@ -33,9 +33,9 @@ A macOS user-space driver for CAN Leaf Interfaces from Kvaser is provided by UV&
 
 {% for page in site.pages %}
 {% if page.type == 'driver' and page.tag == 'MacCAN-KvaserCAN' %}
-[~~Download~~]({{page.latest}}){: .btn .btn--light-outline}
-[~~Sources (zip)~~]({{page.srczip}}){: .btn .btn--light-outline}
-[~~Sources (tar.gz)~~]({{page.srctar}}){: .btn .btn--light-outline}
+[Download]({{page.latest}}){: .btn .btn--primary}
+[Sources (zip)]({{page.srczip}}){: .btn .btn--primary}
+[Sources (tar.gz)]({{page.srctar}}){: .btn .btn--primary}
 [Learn More](/drivers/KvaserCAN/){: .btn .btn--primary}
 {% endif %}
 {% endfor %}
