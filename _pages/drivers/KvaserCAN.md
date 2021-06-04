@@ -65,8 +65,8 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 |   - Timed out          | :heavy_check_mark: | :heavy_check_mark: | wait up to 65'534 milliseconds |
 |   - Blocking read      | :heavy_check_mark: | :heavy_check_mark: | wait infinitely |
 | Message transmission: | | | |
-| - Acknowledged | :heavy_check_mark: | :heavy_check_mark: | wait up to 65'534 milliseconds  |
-| - Buffered     | :heavy_check_mark: | :heavy_check_mark: | _buffer size depends on the hardware_ |
+| - Acknowledged write | :heavy_check_mark: | :heavy_check_mark: | wait up to 65'534 milliseconds  |
+| - Buffered write     | :heavy_check_mark: | :heavy_check_mark: | _buffer size depends on the hardware_ |
 | Software Development Kit: | | | |
 | - Kvaser CANlib   | :x: | :x: | _not available_ |
 | - CAN API V3      | :heavy_check_mark: | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
@@ -80,6 +80,14 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Python |
 
+### Change-log
+
+{% for post in site.posts %}
+{% if post.categories contains 'Change-log' and post.tag == 'MacCAN-KvaserCAN' %}
+{{ post.content }}
+{% endif %}
+{% endfor %}
+
 ### Supported Devices
 
 Only the following devices from Kvaser AB are supported:
@@ -89,14 +97,6 @@ Only the following devices from Kvaser AB are supported:
 Note: _**Leaf Pro HS v2** devices can currently only be operated in **CAN 2.0 mode**!_
 
 For technical specifications, prices and delivery terms see [Kvaser´s website](https://www.kvaser.com/products-services/our-products/#/?pc_int=usb).
-
-### Change-log
-
-{% for post in site.posts %}
-{% if post.categories contains 'Change-log' and post.tag == 'MacCAN-KvaserCAN' %}
-{{ post.content }}
-{% endif %}
-{% endfor %}
 
 ### Known Bugs and Caveats
 

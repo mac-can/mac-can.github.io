@@ -59,6 +59,14 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Utilities | :heavy_check_mark: | CLI utilities: [`can_moni`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) and [`can_test`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) |
 | Examples | :heavy_check_mark: | C++, Python, Objective-C ([Demo App](https://github.com/mac-can/PCBUSB-Monitor)) |
 
+### Change-log
+
+{% for post in site.posts %}
+{% if post.categories contains 'Change-log' and post.tag == 'PCBUSB-Library' %}
+{{ post.content }}
+{% endif %}
+{% endfor %}
+
 ### Supported Devices
 
 Only the following devices from PEAK-System Technik are supported:
@@ -68,14 +76,6 @@ Since version 0.8 (Build 689 of September 20, 2017):
 - PCAN-USB FD (product code: IPEH-004022)
 
 For technical specifications, prices and delivery terms see [PEAK´s website](https://www.peak-system.com/Product-Overview.333.0.html).
-
-### Change-log
-
-{% for post in site.posts %}
-{% if post.categories contains 'Change-log' and post.tag == 'PCBUSB-Library' %}
-{{ post.content }}
-{% endif %}
-{% endfor %}
 
 ### Known Bugs and Caveats
 

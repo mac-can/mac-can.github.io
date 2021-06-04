@@ -30,12 +30,54 @@ The GitHub repository contains the source code for the MacCAN-TouCAN driver and 
 The MacCAN-TouCAN driver comes with an CAN&nbsp;API&nbsp;V3 compatible API.
 CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems. See header file `CANAPI.h` for the CAN&nbsp;API&nbsp;V3 wrapper specification.
 
-### Supported Devices
+### Features
 
-Only the following devices from Rusoku Technologies are supported:
-- TouCAN USB (Model F4FS1)
-
-For technical specifications, prices and delivery terms see [Rusoku´s website](https://www.rusoku.com/products).
+|         Feature          |     Supported      | Remarks |
+| ------------------------ |:------------------:| ------- |
+| CAN 2.0                  | :heavy_check_mark: |  Classical CAN |
+| CAN FD                   | :x: |  Flexible Data-rate CAN |
+| Bit-rate, CAN 2.0        | :heavy_check_mark: | high speed: up to 1 Mbps |
+| Bit-rate, CAN FD         | :x: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
+| 11-bit identifier (STD)  | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| 29-bit identifier (XTD)  | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| Remote frames (RTR)      | :heavy_check_mark: | CAN 2.0 only |
+| Error frames (ERR)       | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| Error indicator (ESI)    | :x: | CAN FD only |
+| Bit-rate switching (BRS) | :x: | CAN FD only |
+| Listen-only mode (MON)   | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| Identifier filtering     | :x: | CAN 2.0 and CAN FD |
+| Operation modes: | | | |
+| - Monitor mode enable/disable (MON)        | :heavy_check_mark: | disabled by default |
+| - Error frames enable/disable (ERR)        | :heavy_check_mark: | disabled by default |
+| - Remote frames disable/enable (NRTR)      | :x: | _not supported_ |
+| - Extended frames disable/enable (NXTD)    | :x: | _not supported_ |
+| - Shared access enable/disable (SHRD)      | :x: | _not supported_ |
+| - Non-ISO CAN FD enable/disable (NISO)     | :x: | _not supported_ |
+| - Bit-rate switching enable/disable (BRSE) | :x: | disabled by default |
+| - CAN FD operation enable/disable (FDOE)   | :x: | disabled by default |
+| Bit-rate settings: | | | |
+| - Pre-defined bit-timing indexes | :heavy_check_mark: | acc. CiA CANopen specification |
+| - BTR register values            | :heavy_check_mark: | register fields:<br/>- `freq` (clock frequency in [Hz])<br/>- `brp` (bit-rate prescaler)<br/>- `tseg1` (time segment 1)<br/>- `tseg2` (time segment 2)<br/>- `sjw` (synchronization jump width)<br/>- `sam` (number of samples) |
+| Message reception: | | | |
+| - Message queue (FIFO) | :heavy_check_mark: | up to 64K CAN messages |
+|   - Polling            | :heavy_check_mark: | return immediately |
+|   - Timed out          | :heavy_check_mark: | wait up to 65'534 milliseconds |
+|   - Blocking read      | :heavy_check_mark: | wait infinitely |
+| Message transmission: | | | |
+| - Acknowledged write | :x: | _not supported_  |
+| - Buffered write     | :heavy_check_mark: | _buffer size depends on the hardware_ |
+| Software Development Kit: | | | |
+| - VSCP CANAL API  | :x: | _not available_ |
+| - CAN API V3      | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
+| - Dynamic library | :heavy_check_mark: | `libUVCANTOU.dylib`, `libTouCAN.dylib` |
+| - Static library  | :heavy_check_mark: | `libUVCANTOU.a`, `libTouCAN.a` |
+| - Source code     | :heavy_check_mark: | GPL-3.0-or-later |
+| - M1 chip         | :x: | _not supported_ |
+| - Swift wrapper   | :x: | _not available_ |
+| - Python wrapper  | :heavy_check_mark: | Python 2.7 and 3.8 |
+| - Windows wrapper | :heavy_check_mark: | _not available_ |
+| - Utilities       | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
+| - Examples        | :heavy_check_mark: | C, C++, Python |
 
 ### Change-log
 
@@ -44,6 +86,13 @@ For technical specifications, prices and delivery terms see [Rusoku´s website](
 {{ post.content }}
 {% endif %}
 {% endfor %}
+
+### Supported Devices
+
+Only the following devices from Rusoku Technologies are supported:
+- TouCAN USB (Model F4FS1)
+
+For technical specifications, prices and delivery terms see [Rusoku´s website](https://www.rusoku.com/products).
 
 ### Known Bugs and Caveats
 
