@@ -31,6 +31,55 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 
 Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 
+### Features
+
+|         Feature          |   Leaf<br/>Light   |    Leaf<br/>Pro    | Remarks |
+| ------------------------ |:------------------:|:------------------:| ------- |
+| CAN 2.0                  | :heavy_check_mark: | :heavy_check_mark: |  Classical CAN |
+| CAN FD                   | :x: | :x: |  Flexible Data-rate CAN |
+| Bit-rate, CAN 2.0        | :heavy_check_mark: | :heavy_check_mark: | high speed: up to 1 Mbps |
+| Bit-rate, CAN FD         | :x: | :x: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
+| 11-bit identifier (STD)  | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| 29-bit identifier (XTD)  | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| Remote frames (RTR)      | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 only |
+| Error frames (ERR)       | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| Error indicator (ESI)    | :x: | :x: | CAN FD only |
+| Bit-rate switching (BRS) | :x: | :x: | CAN FD only |
+| Silent operation (MON)   | :x: | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| Identifier filtering     | :x: | :x: | CAN 2.0 and CAN FD |
+| Operation modes: | | | |
+| - Monitor mode enable/disable (MON)        | :x: | :heavy_check_mark: | disabled by default |
+| - Error frames enable/disable (ERR)        | :heavy_check_mark: | :heavy_check_mark: | disabled by default |
+| - Remote frames disable/enable (NRTR)      | :heavy_check_mark: | :heavy_check_mark: | enabled by default |
+| - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | :heavy_check_mark: | enabled by default |
+| - Shared access enable/disable (SHRD)      | :x: | :x: | _not supported_ |
+| - Non-ISO CAN FD enable/disable (NISO)     | :x: | :x: | _not supported_ |
+| - Bit-rate switching enable/disable (BRSE) | :x: | :x: | disabled by default |
+| - CAN FD operation enable/disable (FDOE)   | :x: | :x: | disabled by default |
+| Bit-rate settings: | | | |
+| - Pre-defined bit-timing indexes | :heavy_check_mark: | :heavy_check_mark: | acc. CiA CANopen specification |
+| - BTR register values            | :heavy_check_mark: | :heavy_check_mark: | register fields:<br/>- `freq` (clock frequency in [Hz])<br/>- `brp` (bit-rate prescaler)<br/>- `tseg1` (time segment 1)<br/>- `tseg2` (time segment 2)<br/>- `sjw` (synchronization jump width)<br/>- `sam` (number of samples) |
+| Message reception: | | | |
+| - Message queue (FIFO) | :heavy_check_mark: | :heavy_check_mark: | up to 64K CAN messages |
+|   - Polling            | :heavy_check_mark: | :heavy_check_mark: | return immediately |
+|   - Timed out          | :heavy_check_mark: | :heavy_check_mark: | wait up to 65'534 milliseconds |
+|   - Blocking read      | :heavy_check_mark: | :heavy_check_mark: | wait infinitely |
+| Message transmission: | | | |
+| - Acknowledged | :heavy_check_mark: | :heavy_check_mark: | wait up to 65'534 milliseconds  |
+| - Buffered     | :heavy_check_mark: | :heavy_check_mark: | _buffer size depends on the hardware_ |
+| Software Development Kit: | | | |
+| - Kvaser CANlib   | :x: | :x: | _not available_ |
+| - CAN API V3      | :heavy_check_mark: | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
+| - Dynamic library | :heavy_check_mark: | :heavy_check_mark: | `libUVCANKVL.dylib`, `libKvaserCAN.dylib` |
+| - Static library  | :heavy_check_mark: | :heavy_check_mark: | `libUVCANKVL.a`, `libKvaserCAN.a` |
+| - Source code     | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
+| - M1 chip         | :x: | :x: | _not supported_ |
+| - Swift wrapper   | :x: | :x: | _not available_ |
+| - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 2.7 and 3.8 |
+| - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](wrapper/windows/KvaserCAN/) |
+| - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
+| - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Python |
+
 ### Supported Devices
 
 Only the following devices from Kvaser AB are supported:

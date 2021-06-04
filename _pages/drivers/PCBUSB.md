@@ -35,8 +35,8 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | ------- |:---------:| ------- |
 | CAN 2.0 | :heavy_check_mark: | supported by PCAN-USB, PCAN-USB FD |
 | CAN FD | :heavy_check_mark: | supported by PCAN-USB FD only |
-| Bit rate, CAN 2.0 | :heavy_check_mark: | high speed: up to 1 Mbps |
-| Bit rate, CAN FD | :heavy_check_mark: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
+| Bit-rate, CAN 2.0 | :heavy_check_mark: | high speed: up to 1 Mbps |
+| Bit-rate, CAN FD | :heavy_check_mark: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
 | 11-bit identifier (STD) | :heavy_check_mark: | CAN 2.0 and CAN FD mode |
 | 29-bit identifier (XTD) | :heavy_check_mark: | CAN 2.0 and CAN FD mode |
 | Remote frames (RTR) | :heavy_check_mark: | CAN 2.0 mode only |
