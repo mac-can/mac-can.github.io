@@ -9,7 +9,7 @@ There are many companies offering multifarious CAN hardware and CAN software.
 Unfortunately, few of them provide a driver for the Mac.
 UV&nbsp;Software provides USB-to-CAN user-space drivers for macOS.
 
-## macOS User-Space Driver for TouCAN USB Interfaces from Rusoku
+## TouCAN USB Interfaces from Rusoku
 
 Rusoku Technologies is an innovative engineering team based in Lithuania, Europe.
 They offer CAN adapters at a reasonable price.
@@ -25,7 +25,7 @@ A macOS user-space driver for TouCAN USB interfaces from Rusoku is provided by U
 {% endif %}
 {% endfor %}
 
-## macOS User-Space Driver for CAN Leaf Interfaces from Kvaser
+## CAN Leaf Interfaces from Kvaser
 
 The Swedish company Kvaser AB supplies advanced CAN solutions to engineers designing and deploying systems for manifold areas of applications.
 They offer a wide range of CAN hardware and CAN software, mainly for applications under Windows but also under Linux.
@@ -40,7 +40,7 @@ A macOS user-space driver for CAN Leaf Interfaces from Kvaser is provided by UV&
 {% endif %}
 {% endfor %}
 
-## macOS User-Space Driver for PCAN-USB Interfaces from PEAK-System
+## PCAN-USB Interfaces from PEAK-System
 
 PEAK-System is a leading provider of hardware, software, and services for the mobile and industrial communication sector with emphasis on the field buses CAN and LIN.
 The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System.
