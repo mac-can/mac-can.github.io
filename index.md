@@ -5,7 +5,7 @@ toc_sticky: true
 author_profile: true
 title:  MacCAN
 ---
-[Running CAN and CAN FD on a Mac](/) is the mission of the MacCAN project.
+[Running CAN and CAN FD on Mac](/) is the mission of the MacCAN project.
 There are many companies offering multifarious CAN hardware and CAN software.
 Unfortunately, few of them provide a driver for the Mac.
 

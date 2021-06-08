@@ -21,7 +21,7 @@ email                    : "info@mac-can.com"
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 description              : >-
-  Running CAN and CAN FD on a Mac® is the mission of the MacCAN project.
+  Running CAN and CAN FD on Mac® is the mission of the MacCAN project.
   There are many companies offering multifarious CAN hardware and CAN software.
   Unfortunately, few of them provide a driver for the Mac.
   UV Software provides macOS® user-space drivers for USB-to-CAN interfaces from PEAK-System, Kvaser AB, Rusoku Technologies.
@@ -72,7 +72,7 @@ plugins:
 author:
   name             : "Uwe Vogt, UV&nbsp;Software"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Running CAN and CAN FD on a Mac"
+  bio              : "Running CAN and CAN FD on Mac"
   location         : "Berlin, Germany"
   email            : # "info@mac-can.com"
   links:
