@@ -76,7 +76,7 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - M1 chip         | :x: | :x: | _not supported_ |
 | - Swift wrapper   | :x: | :x: | _not available_ |
 | - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 2.7 and 3.8 |
-| - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](wrapper/windows/KvaserCAN/) |
+| - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/KvaserCAN/) |
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Python |
 
