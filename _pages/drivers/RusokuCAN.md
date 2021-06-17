@@ -72,7 +72,7 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 | - Dynamic library | :heavy_check_mark: | `libUVCANTOU.dylib`, `libTouCAN.dylib` |
 | - Static library  | :heavy_check_mark: | `libUVCANTOU.a`, `libTouCAN.a` |
 | - Source code     | :heavy_check_mark: | GPL-3.0-or-later |
-| - M1 chip         | :x: | _not supported_ |
+| - Apple silicon   | :grey_question: | _not tested_ |
 | - Swift wrapper   | :x: | _not available_ |
 | - Python wrapper  | :heavy_check_mark: | Python 2.7 and 3.8 |
 | - Windows wrapper | :heavy_check_mark: | _not available_ |
