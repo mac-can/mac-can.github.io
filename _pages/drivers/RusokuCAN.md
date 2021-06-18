@@ -73,11 +73,11 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 | - Static library  | :heavy_check_mark: | `libUVCANTOU.a`, `libTouCAN.a` |
 | - Source code     | :heavy_check_mark: | GPL-3.0-or-later |
 | - Apple silicon   | :grey_question: | _not tested_ |
-| - Swift wrapper   | :x: | _not available_ |
+| - Swift wrapper   | :heavy_check_mark: | Swift 5.3 (including SPM) |
 | - Python wrapper  | :heavy_check_mark: | Python 2.7 and 3.8 |
 | - Windows wrapper | :heavy_check_mark: | _not available_ |
 | - Utilities       | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
-| - Examples        | :heavy_check_mark: | C, C++, Python |
+| - Examples        | :heavy_check_mark: | C, C++, Swift, Python |
 
 ### Change-log
 
