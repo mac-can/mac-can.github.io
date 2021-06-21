@@ -73,7 +73,7 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 | - Static library  | :heavy_check_mark: | `libUVCANTOU.a`, `libTouCAN.a` |
 | - Source code     | :heavy_check_mark: | GPL-3.0-or-later |
 | - Apple silicon   | :grey_question: | _not tested_ |
-| - Swift wrapper   | :heavy_check_mark: | Swift 5.3 (including SPM) |
+| - Swift wrapper   | :heavy_check_mark: | Swift 5.4 (including SPM) |
 | - Python wrapper  | :heavy_check_mark: | Python 2.7 and 3.8 |
 | - Windows wrapper | :heavy_check_mark: | _not available_ |
 | - Utilities       | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
@@ -98,7 +98,9 @@ For technical specifications, prices and delivery terms see [Rusoku´s website](
 
 For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the GitHub repo.
 
-### License
+### Licenses
+
+#### MacCAN-TouCAN License
 
 MacCAN-TouCAN is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -112,6 +114,12 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with MacCAN-TouCAN.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+#### MacCAN-Core License
+
+MacCAN-Core (which includes CAN API V3) is dual-licensed under the terms of the BSD 2-Clause "Simplified" License
+and under the terms of the GNU General Public License v3.0 (or any later version).
+The terms of the GNU General Public License v3.0 (or any later version) apply to this work, see above.
 
 ### Trademarks
 

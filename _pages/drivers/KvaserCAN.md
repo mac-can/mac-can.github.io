@@ -74,7 +74,7 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - Static library  | :heavy_check_mark: | :heavy_check_mark: | `libUVCANKVL.a`, `libKvaserCAN.a` |
 | - Source code     | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
 | - Apple silicon   | :grey_question: | :grey_question: | _not tested_ |
-| - Swift wrapper   | :heavy_check_mark: | :heavy_check_mark: | Swift 5.3 (including SPM) |
+| - Swift wrapper   | :heavy_check_mark: | :heavy_check_mark: | Swift 5.4 (including SPM) |
 | - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 2.7 and 3.8 |
 | - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/KvaserCAN/) |
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
