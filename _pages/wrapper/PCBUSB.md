@@ -76,7 +76,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - M1 chip         | :x: | :x: | _not supported_ |
 | - Swift wrapper   | :x: | :x: | _not available_ |
 | - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 2.7 and 3.8 |
-| - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](wrapper/windows/PCANBasic/) |
+| - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/PCANBasic/) |
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Python |
 
