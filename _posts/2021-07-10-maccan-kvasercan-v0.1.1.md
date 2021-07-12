@@ -9,15 +9,15 @@ release: Version 0.1 SR1 (Commit 7f6274f of July 10, 2021)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
-- Add a CAN API V3 compatible Swift wrapper and two Swift examples
-- Add Swift Package Manager (SPM) configuration and test template
-- Move CAN API wrapper code from C++ class to C interface (`can_api.c`)
-- Add abstract class `CCanApi` (as replacement for class `CMacCAN`)
-- Fix a bug with checking for valid handle in function `can_init`
-- Fix a bug with uncleared receive queue after re-start
-- Fix a bug when teardown all channels (`CANEXIT_ALL`)
-- Fix a bug with reading device independent properties
-- Fix some bugs with getting properties from device and from library:
+- Added a CAN API V3 compatible Swift wrapper and two Swift examples
+- Added Swift Package Manager (SPM) configuration and test template
+- Moved CAN API wrapper code from C++ class to C interface (`can_api.c`)
+- Added abstract class `CCanApi` (as replacement for class `CMacCAN`)
+- Fixed a bug with checking for valid handle in function `can_init`
+- Fixed a bug with uncleared receive queue after re-start
+- Fixed a bug when teardown all channels (`CANEXIT_ALL`)
+- Fixed a bug with reading device independent properties
+- Fixed some bugs with getting properties from device and from library:
   - accept NULL pointer for SET_FIRST_CHANNEL and SET_NEXT_CHANNEL
   - getting device properties requires a valid handle
   - string values must be at least one byte in size
