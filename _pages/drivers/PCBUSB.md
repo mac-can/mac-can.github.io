@@ -6,8 +6,9 @@ toc_sticky: true
 title: macOS User-Space Driver for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Library
 type: driver
-latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Library/OS_X_Library_for_PCANUSB_v0.10.tar.gz
-readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Library/OS_X_Library_for_PCANUSB_v0.10.readme
+latest_x86_64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Library/OS_X_Library_for_PCANUSB_v0.10.1.tar.gz
+latest_arm64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Library/macOS_Library_for_PCANUSB_v0.10.1.tar.gz
+readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Library/macOS_Library_for_PCANUSB_v0.10.1.readme
 ---
 The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System Technik, Darmstadt.
 It supports up to 8 PCAN-USB and PCAN-USB FD devices.
@@ -15,14 +16,16 @@ The library offers an easy to use API to read received CAN messages from a 64K m
 Standard CAN frames (11-bit identifier) as well as extended CAN frames (29-bit identifier) are supported.
 The PCAN-USB FD device can be operated in CAN 2.0 and CAN FD mode.
 
-[Download]({{page.latest}}){: .btn .btn--primary}
+[Download (x86_64)]({{page.latest_x86_64}}){: .btn .btn--primary}
+[Download (arm64)]({{page.latest_arm64}}){: .btn .btn--primary}
 [Readme]({{page.readme}}){: .btn .btn--primary}
+[mac-can.com](https://mac-can.com){: .btn .btn--primary}
 
 ## PCBUSB Library
 
-The dynamic library libPCBUSB is running under macOS 10.13 and later (x86_64 architecture).
+The dynamic library libPCBUSB is running under macOS 10.13 and later (Intel architecture and Apple silicon).
 The API is almost compatible to PEAK´s PCANBasic DLL on Windows.
-See the [MacCAN](https://www.mac-can.com/) website for details.
+See the [MacCAN](https://www.mac-can.com/) website to learn more.
 
 The library comes with an Objective-C wrapper and a Demo App: [MacCAN Monitor App](/apps/demo/PCBUSB-Monitor.html) \
 Furthermore, it can be used with the Qt Serial Bus API on a Mac: [Qt CAN Bus example](https://doc.qt.io/qt-5/qtserialbus-can-example.html)
@@ -48,10 +51,10 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Identifier filtering | :x: | _not realized yet_ |
 | Non-ISO CAN FD mode | (:heavy_check_mark:) | _HW settings of the device cannot be changed by the library_ |
 | Software interface (API) | :heavy_check_mark: | compatible to PEAK´s PCANBasic API _with some limitations_ |
-| Dynamic library (`.dylib`) | :heavy_check_mark: | **_binary for x86_64 only_** |
-| Static library (`.a`) | :heavy_check_mark: | _not available_ |
+| Dynamic library (`.dylib`) | :heavy_check_mark: | for Intel architecture and as Universal macOS Binary |
+| Static library (`.a`) | :x: | _not available_ |
 | Source code | :x: | **_not available_** |
-| M1 Chip | :x: | _not supported_ |
+| M1 Chip | :heavy_check_mark: | Universal macOS Binary |
 | Objective-C Wrapper | :heavy_check_mark: | available |
 | Python Wrapper | :heavy_check_mark: | available |
 | Swift Wrapper | :x: | _not available_ |

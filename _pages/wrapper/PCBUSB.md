@@ -73,7 +73,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - Dynamic library | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.dylib`, `libPeakCAN.dylib` |
 | - Static library  | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.a`, `libPeakCAN.a` |
 | - Source code     | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
-| - M1 chip         | :x: | :x: | _not supported_ |
+| - M1 chip         | :heavy_check_mark: | :heavy_check_mark: | Universal macOS Binary |
 | - Swift wrapper   | :x: | :x: | _not available_ |
 | - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 2.7 and 3.8 |
 | - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/PCANBasic/) |

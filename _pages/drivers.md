@@ -47,9 +47,9 @@ The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-
 
 {% for page in site.pages %}
 {% if page.type == 'driver' and page.tag == 'PCBUSB-Library' %}
-[Download]({{page.latest}}){: .btn .btn--primary}
+[Download (x86_64)]({{page.latest_x86_64}}){: .btn .btn--primary}
+[Download (arm64)]({{page.latest_arm64}}){: .btn .btn--primary}
 [Readme]({{page.readme}}){: .btn .btn--primary}
-[mac-can.com](https://mac-can.com){: .btn .btn--primary}
 [Learn More](/drivers/libPCBUSB.html){: .btn .btn--primary}
 {% endif %}
 {% endfor %}
