@@ -6,35 +6,55 @@ toc_sticky: true
 title: CAN Monitor App for macOS (Demo)
 tag: PCBUSB-Monitor
 type: demo
-latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.3.dmg
-readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.3.pdf
+latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.4_uni.dmg
+x86_64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.4_x86.dmg
+readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.4.pdf
 ---
-The MacCAN Monitor App is a little demo program to show the functionally of the [PCBUSB library](/drivers/libPCBUSB.html): the macOS library for PCAN-USB interfaces.
+The MacCAN Monitor App is a little demo program to show the functionally of the [PCBUSB library](/drivers/libPCBUSB.html): the macOS Library for PCAN-USB interfaces.
 
-[Download]({{page.latest}}){: .btn .btn--primary} [Readme]({{page.readme}}){: .btn .btn--primary}
+[Download (arm64)]({{page.latest}}){: .btn .btn--primary}
+[Download (x86_64)]({{page.x86_64}}){: .btn .btn--primary}
+[Readme]({{page.readme}}){: .btn .btn--primary}
 
 ## Demo App for PCAN-USB interfaces
 
-The program displays received CAN messages in a table view; its size is limited to 1024 rows.
-Furthermore it is possible to send single standard CAN messages with 0 to 8 data bytes.
+The program displays received CAN messages in a table view.
 
 {% include video id="v0U_WN7s3ao" provider="youtube" %}
 
-Only PCAN-USB devices from PEAK-System Technik GmbH are supported; and only the first channel of a device.
-The PCAN-USB interface number is taken from the IO registry.
-USB interface and CAN baud rate must be chosen once the program is started; they cannot be changed afterwards.
+Furthermore it is possible to send single standard CAN messages with 0 to 8 data bytes.
 
-### System Requirements
+**Limitations (Demo Program):**
 
-- Supported architecture: i386 x86_64
-- Supported CAN interfaces: PCAN-USB
-- Minimal required library: libPCBUSB.0.9.dylib
+- CAN channel and CAN bit rate must be chosen once the program is started; they cannot be changed afterwards.
+- PCAN-USB FD devices can only be operated in CAN Classic mode (CAN 2.0).
+- The size of the table view is limited to 1024 rows.
+- The size of the trace file is limited to 100K frames.
+
+### macOS® Library for PCAN-USB Interfaces
+
+The dynamic library libPCBUSB is running under macOS 10.13 and later (Intel architecture and Apple silicon).
+The API is almost compatible to PEAK´s PCANBasic DLL on Windows.
+See the [MacCAN](https://www.mac-can.com/) website to learn more.
+
+### Supported Devices
+
+Only the following devices from PEAK-System Technik are supported:
+- PCAN-USB (product code: IPEH-002021, IPEH-002022)
+- PCAN-USB FD (product code: IPEH-004022)
+
+### Required Library Version
+
+The minimum required library version is v0.9 (Build 902 of June 25, 2020), but _Latest is Greatest_.
+
+### License
+
+This work is licensed under the terms of the BSD 2-Clause "Simplified" License.
 
 ### Installation
 
-1. Download the PCBUSB library and run the `install.sh` script in a terminal session.
-   Make sure that you have write permission to `/usr/local/lib` folder.
-2. Download the MacCAN Monitor App or drag the program icon from the disk image to any folder you like (e.g. `Programs`).
+1. Download the PCBUSB Library and run the `install.sh` script in a terminal session. Make sure that you have write permission to `/usr/local` folder
+2. Download the MacCAN Monitor App, open the disk image and drag-and-drop the program icon to your Applications folder (or any other folder you like).
 
 ### Change-log
 
@@ -44,14 +64,10 @@ USB interface and CAN baud rate must be chosen once the program is started; they
 {% endif %}
 {% endfor %}
 
-### License
-
-The MacCAN Monitor App for PCAN-USB interfaces is freeware without any warranty or support! \
-Please note the copyright and license agreement.
-
 ### Credits
 
-Toolbar icons by Oxygen Team (GNU Lesser General Public License, Version 3).
+Toolbar icons by Oxygen Team (GNU Lesser General Public License). \
+Apple M1 support by Sebastião Beirão (https://github.com/sebashb).
 
 ### Trademarks
 
