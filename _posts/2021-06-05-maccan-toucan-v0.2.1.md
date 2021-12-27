@@ -4,7 +4,7 @@ title:  "MacCAN-TouCAN - Version 0.2.1 released"
 tag: MacCAN-TouCAN
 categories: Change-log Drivers macOS Rusoku TouCAN
 artifacts: https://github.com/mac-can/RusokuCAN/releases/tag/v0.2.1
-release: Version 0.2.1 (Commit 0b4a139 of June 5 2021)
+release: Version 0.2.1 (Commit 0b4a139 of June 5, 2021)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
