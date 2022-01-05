@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for PEAK PCAN Interfaces (Windows)
 tag: PCANBasic-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.1/artifacts.zip
-srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.1.zip
-srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.1.tar.gz
+latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.2/artifacts.zip
+srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.2.zip
+srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.2.tar.gz
 github: https://github.com/uv-software/PCANBasic-Wrapper
 issues: https://github.com/uv-software/PCANBasic-Wrapper/issues
 ---
@@ -72,7 +72,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - 32-bit version (x86) | :heavy_check_mark: | supported |
 | - 64-bit version (x64) | :heavy_check_mark: | supported |
 | - Source code          | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
-| - Python wrapper       | :heavy_check_mark: | Python 3.7 |
+| - Python wrapper       | :x: | Python 3.7 |
 | - macOS wrapper        | :heavy_check_mark: | [macOS Driver and SDK](/wrapper/PCANBasic/) |
 | - Utilities            | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples             | :heavy_check_mark: | C, C++, Python |
