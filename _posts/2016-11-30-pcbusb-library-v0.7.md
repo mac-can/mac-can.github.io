@@ -3,7 +3,7 @@ layout: single
 title:  "PCBUSB-Library - Version 0.7 released"
 tag: PCBUSB-Library
 categories: Change-log Drivers macOS Peak PCBUSB
-artifacts: https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:pcbusb_library
+artifacts: https://github.com/mac-can/PCBUSB-Library/releases/tag/v0.7
 release: Version 0.7 (Build 558 of November 30, 2016)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
