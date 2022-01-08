@@ -3,7 +3,7 @@ layout: single
 title:  "PCBUSB-Utilities - Version 0.5 released"
 tag: PCBUSB-Utilities
 categories: Change-log Utilities macOS Peak PCBUSB
-artifacts: https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac
+artifacts: https://github.com/mac-can/PCBUSB-Utilities/releases/tag/v0.5
 release: Version 0.5 (Build 850 of December 1, 2019)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
