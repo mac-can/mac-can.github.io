@@ -21,7 +21,7 @@ A macOS&reg; user-space driver for TouCAN USB Interfaces from Rusoku is provided
   <div style="width: 100%; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 10px; border-width: 1px; border-style: solid; border-color: #FFFFFF; border-radius: 20px;">
       <a href="/drivers/RusokuCAN/" title="macOS&reg; Driver for TouCAN USB Interfaces"><img src="/assets/images/driver_icon.png" alt="MacCAN-TouCAN Driver" /></a>
       <a href="/wrapper/RusokuCAN/" title="CAN API V3 Wrapper Library for TouCAN USB Interfaces"><img src="/assets/images/wrapper_icon.png" alt="MacCAN-TouCAN Wrapper" /></a>
-      <a href="https://github.com/mac-can/SwiftCAN-TouCAN" title="Swift Demo Program for Rusoku TouCAN USB Interfaces (macOS&reg;"><img src="/assets/images/apps_icon.png" alt="SwiftCAN-TouCAN" /></a>
+      <a href="https://github.com/mac-can/RusokuCAN.swift" title="Swift Demo Program for Rusoku TouCAN USB Interfaces (macOS&reg;"><img src="/assets/images/apps_icon.png" alt="RusokuCAN.swift" /></a>
   </div>
 </div>
 
