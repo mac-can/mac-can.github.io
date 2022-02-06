@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS Wrapper Library for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Wrapper
 type: wrapper
-latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.2.2/artifacts.zip
-srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.2.zip
-srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.2.tar.gz
+latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.2.3/artifacts.zip
+srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.3.zip
+srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.3.tar.gz
 github: https://github.com/mac-can/PCBUSB-Wrapper
 issues: https://github.com/mac-can/PCBUSB-Wrapper/issues
 ---
