@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for Kvaser CAN Interfaces (Windows)
 tag: KvaserCAN-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/KvaserCAN-Wrapper/releases/download/v0.2.1/artifacts.zip
-srczip: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.1.zip
-srctar: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.1.tar.gz
+latest: https://github.com/uv-software/KvaserCAN-Wrapper/releases/download/v0.2.2/artifacts.zip
+srczip: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.2.zip
+srctar: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.2.tar.gz
 github: https://github.com/uv-software/KvaserCAN-Wrapper
 issues: https://github.com/uv-software/KvaserCAN-Wrapper/issues
 ---
