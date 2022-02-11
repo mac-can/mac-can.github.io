@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS User-Space Driver for CAN Leaf Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
-latest: https://github.com/mac-can/MacCAN-KvaserCAN/releases/download/v0.1.1/artifacts.zip
-srczip: https://github.com/mac-can/MacCAN-KvaserCAN/archive/tags/v0.1.1.zip
-srctar: https://github.com/mac-can/MacCAN-KvaserCAN/archive/tags/v0.1.1.tar.gz
+latest: https://github.com/mac-can/MacCAN-KvaserCAN/releases/download/v0.2/artifacts.zip
+srczip: https://github.com/mac-can/MacCAN-KvaserCAN/archive/tags/v0.2.zip
+srctar: https://github.com/mac-can/MacCAN-KvaserCAN/archive/tags/v0.2.tar.gz
 github: https://github.com/mac-can/MacCAN-KvaserCAN
 issues: https://github.com/mac-can/MacCAN-KvaserCAN/issues
 ---
@@ -35,16 +35,16 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 
 |         Feature          |   Leaf<br/>Light   |    Leaf<br/>Pro    | Remarks |
 | ------------------------ |:------------------:|:------------------:| ------- |
-| CAN 2.0                  | :heavy_check_mark: | :heavy_check_mark: |  Classical CAN |
-| CAN FD                   | :x: | :x: |  Flexible Data-rate CAN |
+| CAN 2.0                  | :heavy_check_mark: | :heavy_check_mark: | Classical CAN |
+| CAN FD                   | :x:                | :heavy_check_mark: | Flexible Data-rate CAN |
 | Bit-rate, CAN 2.0        | :heavy_check_mark: | :heavy_check_mark: | high speed: up to 1 Mbps |
-| Bit-rate, CAN FD         | :x: | :x: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
+| Bit-rate, CAN FD         | :x:                | :heavy_check_mark: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
 | 11-bit identifier (STD)  | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | 29-bit identifier (XTD)  | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | Remote frames (RTR)      | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 only |
 | Error frames (ERR)       | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Error indicator (ESI)    | :x: | :x: | CAN FD only |
-| Bit-rate switching (BRS) | :x: | :x: | CAN FD only |
+| Error indicator (ESI)    | :x: | :heavy_check_mark: | CAN FD only |
+| Bit-rate switching (BRS) | :x: | :heavy_check_mark: | CAN FD only |
 | Silent operation (MON)   | :x: | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | Identifier filtering     | :x: | :x: | CAN 2.0 and CAN FD |
 | Operation modes: | | | |
@@ -54,8 +54,8 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | :heavy_check_mark: | enabled by default |
 | - Shared access enable/disable (SHRD)      | :x: | :x: | _not supported_ |
 | - Non-ISO CAN FD enable/disable (NISO)     | :x: | :x: | _not supported_ |
-| - Bit-rate switching enable/disable (BRSE) | :x: | :x: | disabled by default |
-| - CAN FD operation enable/disable (FDOE)   | :x: | :x: | disabled by default |
+| - Bit-rate switching enable/disable (BRSE) | :x: | :heavy_check_mark: | disabled by default |
+| - CAN FD operation enable/disable (FDOE)   | :x: | :heavy_check_mark: | disabled by default |
 | Bit-rate settings: | | | |
 | - Pre-defined bit-timing indexes | :heavy_check_mark: | :heavy_check_mark: | acc. CiA CANopen specification |
 | - BTR register values            | :heavy_check_mark: | :heavy_check_mark: | register fields:<br/>- `freq` (clock frequency in [Hz])<br/>- `brp` (bit-rate prescaler)<br/>- `tseg1` (time segment 1)<br/>- `tseg2` (time segment 2)<br/>- `sjw` (synchronization jump width)<br/>- `sam` (number of samples) |
@@ -73,8 +73,8 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - Dynamic library | :heavy_check_mark: | :heavy_check_mark: | `libUVCANKVL.dylib`, `libKvaserCAN.dylib` |
 | - Static library  | :heavy_check_mark: | :heavy_check_mark: | `libUVCANKVL.a`, `libKvaserCAN.a` |
 | - Source code     | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
-| - Apple silicon   | :grey_question: | :grey_question: | _not tested_ |
-| - Swift wrapper   | :heavy_check_mark: | :heavy_check_mark: | Swift 5.4 (including SPM) |
+| - Apple silicon   | :heavy_check_mark: | :heavy_check_mark: | and Intel architecture |
+| - Swift wrapper   | :heavy_check_mark: | :heavy_check_mark: | Swift 5.5 (including SPM) |
 | - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 2.7 and 3.8 |
 | - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/KvaserCAN/) |
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
