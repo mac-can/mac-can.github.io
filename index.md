@@ -34,7 +34,7 @@ A macOS&reg; user-space driver for CAN Leaf Interfaces from Kvaser is provided b
   <div style="width: 100%; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 10px; border-width: 1px; border-style: solid; border-color: #FFFFFF; border-radius: 20px;">
       <a href="/drivers/KvaserCAN/" title="macOS&reg; Driver for CAN Leaf Interfaces"><img src="/assets/images/driver_icon.png" alt="MacCAN-KvaserCAN Driver" /></a>
       <a href="/wrapper/KvaserCAN/" title="CAN API V3 Wrapper Library for CAN Leaf Interfaces"><img src="/assets/images/wrapper_icon.png" alt="MacCAN-KvaserCAN Wrapper" /></a>
-      <a href="https://github.com/mac-can/SwiftCAN-KvaserCAN" title="Swift Demo Program for Kvaser CAN Leaf Interfaces (macOS&reg;"><img src="/assets/images/apps_icon.png" alt="SwiftCAN-KvaserCAN" /></a>
+      <a href="https://github.com/mac-can/KvaserCAN-SwiftCAN" title="Swift Demo Program for Kvaser CAN Leaf Interfaces (macOS&reg;"><img src="/assets/images/apps_icon.png" alt="SwiftCAN-KvaserCAN" /></a>
   </div>
 </div>
 
