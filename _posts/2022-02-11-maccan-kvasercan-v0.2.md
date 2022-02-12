@@ -3,7 +3,7 @@ layout: single
 title:  "MacCAN-KvaserCAN - Version 0.2 released"
 tag: MacCAN-KvaserCAN
 categories: Change-log Drivers macOS Kvaser
-artifacts: https://github.com/mac-can/MacCAN-KvaserCAN/releases/tag/v0.2
+artifacts: https://github.com/mac-can/KvaserCAN-Library/releases/tag/v0.2
 project: /drivers/KvaserCAN/
 release: Version 0.2 (Commit 18b198f of February 11, 2022)
 ---

@@ -17,7 +17,7 @@ release: Version 0.2.2 (Commit d93fbfe of December 27, 2021)
 - Added a Swift wrapper including SPM configuration
 - Added two simple Swift examples for sending and receiving CAN frames
 - Added an Xctest target for CAN API V3 **C** interface to the trial program
-  - take over all test suites and test cases from [MacCAN-KvaserCAN](https://github.com/mac-can/MacCAN-KvaserCAN/tree/main/Trial/Testing)
+  - take over all test suites and test cases from [MacCAN-KvaserCAN](https://github.com/mac-can/KvaserCAN-Library/tree/main/Trial/Testing)
   - test execution: 131 tests, 6 failed - but false positives
 - Fixed a testing issue with unsupported acknowledge of transmit messages
 - Fixed a testing issue with unsupported bit-timing index 1 (800kbps)

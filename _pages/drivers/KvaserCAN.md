@@ -6,11 +6,11 @@ toc_sticky: true
 title: macOS User-Space Driver for CAN Leaf Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
-latest: https://github.com/mac-can/MacCAN-KvaserCAN/releases/download/v0.2/artifacts.zip
-srczip: https://github.com/mac-can/MacCAN-KvaserCAN/archive/tags/v0.2.zip
-srctar: https://github.com/mac-can/MacCAN-KvaserCAN/archive/tags/v0.2.tar.gz
+latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.2/artifacts.zip
+srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.zip
+srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.tar.gz
 github: https://github.com/mac-can/MacCAN-KvaserCAN
-issues: https://github.com/mac-can/MacCAN-KvaserCAN/issues
+issues: https://github.com/mac-can/KvaserCAN-Library/issues
 ---
 The Swedish company Kvaser AB supplies advanced CAN solutions to engineers designing and deploying systems for manifold areas of applications.
 They offer a wide range of CAN hardware and CAN software, mainly for applications under Windows but also under Linux.
