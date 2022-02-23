@@ -3,12 +3,12 @@ layout: single
 title:  "MacCAN-TouCAN - Version 0.2.2 released"
 tag: MacCAN-TouCAN
 categories: Change-log Drivers macOS Rusoku TouCAN
-artifacts: https://github.com/mac-can/RusokuCAN/releases/tag/v0.2.2
+artifacts: https://github.com/mac-can/RusokuCAN.dylib/releases/tag/v0.2.2
 release: Version 0.2.2 (Commit d93fbfe of December 27, 2021)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
-- Reworked the driver layer (to solve the copy constructor issue [#16](https://github.com/mac-can/RusokuCAN/issues/16)):
+- Reworked the driver layer (to solve the copy constructor issue [#16](https://github.com/mac-can/RusokuCAN.dylib/issues/16)):
   - rename sub-folders in `$(PROJROOT)/Sources`
   - switch CAN API V3 wrapper from **C++** to **C**
   - create a lot of new driver layer modules

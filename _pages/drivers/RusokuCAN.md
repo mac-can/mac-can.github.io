@@ -6,11 +6,11 @@ toc_sticky: true
 title: macOS User-Space Driver for TouCAN USB Interfaces from Rusoku
 tag: MacCAN-TouCAN
 type: driver
-latest: https://github.com/mac-can/RusokuCAN/releases/download/v0.2.2/artifacts.zip
-srczip: https://github.com/mac-can/RusokuCAN/archive/tags/v0.2.2.zip
-srctar: https://github.com/mac-can/RusokuCAN/archive/tags/v0.2.2.tar.gz
-github: https://github.com/mac-can/RusokuCAN
-issues: https://github.com/mac-can/RusokuCAN/issues
+latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.2/artifacts.zip
+srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.2.zip
+srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.2.tar.gz
+github: https://github.com/mac-can/RusokuCAN.dylib
+issues: https://github.com/mac-can/RusokuCAN.dylib/issues
 ---
 Rusoku Technologies is an innovative engineering team based in Lithuania, Europe.
 They offer CAN adapter at a reasonable price.

@@ -3,7 +3,7 @@ layout: single
 title:  "MacCAN-TouCAN - Version 0.2 released"
 tag: MacCAN-TouCAN
 categories: Change-log Drivers macOS Rusoku TouCAN
-artifacts: https://github.com/mac-can/RusokuCAN/releases/tag/v0.2
+artifacts: https://github.com/mac-can/RusokuCAN.dylib/releases/tag/v0.2
 release: Version 0.2 (Commit 52f784a of February 28, 2021)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
