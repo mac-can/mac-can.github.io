@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Donation received from TravisT Consulting"
-categories: News
+categories: News Sponsors
 ---
 UV Software receives a monthly donation from [Travis Travelstead Consulting](https://www.travistconsulting.com/), Portland, Oregon, USA.
 

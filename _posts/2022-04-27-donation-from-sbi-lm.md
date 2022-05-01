@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Donation received from Lars M. (herrspade)"
-categories: News
+categories: News Sponsors
 ---
 UV Software receives a one-time donation from Lars M., Malmö, Sweden.
 

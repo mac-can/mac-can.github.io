@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Donation received from Rusoku Technologies"
-categories: News
+categories: News Sponsors
 ---
 UV Software receives a monthly donation from [Rusoku technologijos UAB](https://rusoku.com), Vilnius, Lithuania.
 
