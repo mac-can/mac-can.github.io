@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS User-Space Driver for CAN Leaf Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
-latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.2/artifacts.zip
-srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.zip
-srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.tar.gz
+latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.2.1/artifacts.zip
+srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.1.zip
+srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.1.tar.gz
 github: https://github.com/mac-can/KvaserCAN-Library
 issues: https://github.com/mac-can/KvaserCAN-Library/issues
 ---
