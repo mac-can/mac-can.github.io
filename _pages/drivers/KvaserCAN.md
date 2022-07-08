@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for USB CAN Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
-latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.2.1/artifacts.zip
-srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.1.zip
-srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.2.1.tar.gz
+latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.3/artifacts.zip
+srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.zip
+srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.tar.gz
 github: https://github.com/mac-can/KvaserCAN-Library
 issues: https://github.com/mac-can/KvaserCAN-Library/issues
 ---
