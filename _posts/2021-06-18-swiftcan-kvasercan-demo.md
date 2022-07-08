@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Swift Demo Program for Kvaser CAN Leaf Interfaces (macOS®)"
+title:  "Swift Demo Program for Kvaser CAN Leaf Interfaces (macOS<sup>&reg;</sup>)"
 tag: SwiftCAN-KvaserCAN
 categories: News Demos Swift macOS Kvaser
 ---

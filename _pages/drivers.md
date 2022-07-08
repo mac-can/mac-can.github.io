@@ -25,11 +25,11 @@ A macOS user-space driver for TouCAN USB interfaces from Rusoku is provided by U
 {% endif %}
 {% endfor %}
 
-## CAN Leaf Interfaces from Kvaser
+## USB CAN Interfaces from Kvaser
 
 The Swedish company Kvaser AB supplies advanced CAN solutions to engineers designing and deploying systems for manifold areas of applications.
 They offer a wide range of CAN hardware and CAN software, mainly for applications under Windows but also under Linux.
-A macOS user-space driver for CAN Leaf Interfaces from Kvaser is provided by UV&nbsp;Software.
+A macOS user-space driver for USB CAN Interfaces from Kvaser is provided by UV&nbsp;Software.
 
 {% for page in site.pages %}
 {% if page.type == 'driver' and page.tag == 'MacCAN-KvaserCAN' %}

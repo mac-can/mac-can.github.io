@@ -3,7 +3,7 @@ permalink: /drivers/libPCBUSB.html
 layout: single
 toc: true
 toc_sticky: true
-title: macOS User-Space Driver for PCAN-USB Interfaces from PEAK-System
+title: macOS<sup>&reg;</sup> User-Space Driver and SDK for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Library
 type: driver
 latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.11.1/OS_X_Library_for_PCANUSB_v0.11.1.tar.gz

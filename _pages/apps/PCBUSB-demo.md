@@ -31,7 +31,7 @@ Furthermore it is possible to send single standard CAN messages with 0 to 8 data
 - The size of the table view is limited to 1024 rows.
 - The size of the trace file is limited to 100K frames.
 
-### macOS® Library for PCAN-USB Interfaces
+### macOS<sup>&reg;</sup> Library for PCAN-USB Interfaces
 
 The dynamic library libPCBUSB is running under macOS 10.13 and later (Intel architecture and Apple silicon).
 The API is almost compatible to PEAK´s PCANBasic DLL on Windows.

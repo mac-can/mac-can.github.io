@@ -32,7 +32,7 @@ Additionally it provides companion modules for bit-rate conversion and message f
 
 ## CAN Interface API, Version 3
 
-{% include figure image_path="/assets/images/canapi_macos.png" alt="CAN API V3 for macOS" caption="CAN API V3 on macOS&reg; (Copyright &copy; 2012-2021 by UV Software, Berlin)" %}
+{% include figure image_path="/assets/images/canapi_macos.png" alt="CAN API V3 for macOS" caption="CAN API V3 on macOS<sup>&reg;</sup> (Copyright &copy; 2012-2021 by UV Software, Berlin)" %}
 
 ### API
 
@@ -45,7 +45,7 @@ See header file `can_api.h` for a description of the provided functions.
 The macOS driver libraries come with a CAN&nbsp;API&nbsp;V3 compatible API in the SDK,
 or alternatively wrapper libraries are available as separate SDKs for macOS as well as for Windows.
 
-| CAN&nbsp;API&nbsp;V3 SDK | macOS&reg;<br/>Driver Library | macOS&reg;<br/>Wrapper Library | Windows&reg;<br/>Wrapper Library |
+| CAN&nbsp;API&nbsp;V3 SDK | macOS<sup>&reg;</sup><br/>Driver Library | macOS<sup>&reg;</sup><br/>Wrapper Library | Windows<sup>&reg;</sup><br/>Wrapper Library |
 |:-------------- |:--------------------:|:---------------------:|:-----------------------:|
 | [TouCAN USB Interfaces](/wrapper/RusokuCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :x: |
 | [CAN Leaf Interfaces](/wrapper/KvaserCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :heavy_check_mark: |

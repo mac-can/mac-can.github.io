@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Swift Demo Program for Rusoku TouCAN USB Interfaces (macOS®)"
+title:  "Swift Demo Program for Rusoku TouCAN USB Interfaces (macOS<sup>&reg;</sup>)"
 tag: RusokuCAN.swift
 categories: News Demos Swift macOS Rusoku TouCAN
 ---

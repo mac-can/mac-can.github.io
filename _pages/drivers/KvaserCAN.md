@@ -3,7 +3,7 @@ permalink: /drivers/KvaserCAN/
 layout: single
 toc: true
 toc_sticky: true
-title: macOS User-Space Driver for CAN Leaf Interfaces from Kvaser
+title: macOS<sup>&reg;</sup> User-Space Driver and SDK for USB CAN Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
 latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.2.1/artifacts.zip
@@ -14,7 +14,7 @@ issues: https://github.com/mac-can/KvaserCAN-Library/issues
 ---
 The Swedish company Kvaser AB supplies advanced CAN solutions to engineers designing and deploying systems for manifold areas of applications.
 They offer a wide range of CAN hardware and CAN software, mainly for applications under Windows but also under Linux.
-A macOS user-space driver for CAN Leaf Interfaces from Kvaser is provided by UV&nbsp;Software.
+A macOS user-space driver for USB CAN Interfaces from Kvaser is provided by UV&nbsp;Software.
 
 [Download]({{page.latest}}){: .btn .btn--primary}
 [Sources (zip)]({{page.srczip}}){: .btn .btn--primary}
@@ -23,7 +23,7 @@ A macOS user-space driver for CAN Leaf Interfaces from Kvaser is provided by UV&
 
 ## MacCAN-KvaserCAN Driver
 
-The macOS driver for CAN Leaf interfaces from Kvaser is based on MacCAN-Core which is an abstraction (or rather a wrapper) of Apple´s IOUsbKit to create USB user-space drivers for CAN interfaces from various vendors under macOS.
+The macOS driver for USB CAN interfaces from Kvaser is based on MacCAN-Core which is an abstraction (or rather a wrapper) of Apple´s IOUsbKit to create USB user-space drivers for CAN interfaces from various vendors under macOS.
 The GitHub repository contains the source code for the MacCAN-KvaserCAN driver and several alternatives to build dynamic libraries for macOS, either as a C++ class library (_libKvaserCAN_), or as a CAN&nbsp;API&nbsp;V3 wrapper library (_libUVCANKVL_), as well as some example programs and my beloved CAN utilities `can_moni` and `can_test`.
 
 The MacCAN-KvaserCAN driver comes with an CAN&nbsp;API&nbsp;V3 compatible API.
@@ -33,7 +33,7 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 
 ### Features
 
-|         Feature          |   Leaf<br/>Light   |    Leaf<br/>Pro    | Remarks |
+|         Feature          |  Leaf<br/>Devices  | Mhydra<br/>Devices | Remarks |
 | ------------------------ |:------------------:|:------------------:| ------- |
 | CAN 2.0                  | :heavy_check_mark: | :heavy_check_mark: | Classical CAN |
 | CAN FD                   | :x:                | :heavy_check_mark: | Flexible Data-rate CAN |
@@ -42,20 +42,20 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | 11-bit identifier (STD)  | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | 29-bit identifier (XTD)  | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | Remote frames (RTR)      | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 only |
-| Error frames (ERR)       | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Error indicator (ESI)    | :x: | :heavy_check_mark: | CAN FD only |
-| Bit-rate switching (BRS) | :x: | :heavy_check_mark: | CAN FD only |
-| Silent operation (MON)   | :x: | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Identifier filtering     | :x: | :x: | CAN 2.0 and CAN FD |
+| Error frames (ERR)       | :heavy_check_mark:[^1] | :heavy_check_mark:[^1] | CAN 2.0 and CAN FD |
+| Error indicator (ESI)    | :x:                    | :heavy_check_mark:[^1] | CAN FD only |
+| Bit-rate switching (BRS) | :x:                    | :heavy_check_mark:[^1] | CAN FD only |
+| Silent operation (MON)   | :heavy_check_mark:[^1] | :heavy_check_mark:[^1] | CAN 2.0 and CAN FD |
+| Identifier filtering     | :x:                    | :x:                    | CAN 2.0 and CAN FD |
 | Operation modes: | | | |
-| - Monitor mode enable/disable (MON)        | :x: | :heavy_check_mark: | disabled by default |
-| - Error frames enable/disable (ERR)        | :heavy_check_mark: | :heavy_check_mark: | disabled by default |
+| - Monitor mode enable/disable (MON)        | :heavy_check_mark:[^1] | :heavy_check_mark:[^1] | disabled by default |
+| - Error frames enable/disable (ERR)        | :heavy_check_mark:[^1] | :heavy_check_mark:[^1] | disabled by default |
 | - Remote frames disable/enable (NRTR)      | :heavy_check_mark: | :heavy_check_mark: | enabled by default |
 | - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | :heavy_check_mark: | enabled by default |
 | - Shared access enable/disable (SHRD)      | :x: | :x: | _not supported_ |
 | - Non-ISO CAN FD enable/disable (NISO)     | :x: | :x: | _not supported_ |
-| - Bit-rate switching enable/disable (BRSE) | :x: | :heavy_check_mark: | disabled by default |
-| - CAN FD operation enable/disable (FDOE)   | :x: | :heavy_check_mark: | disabled by default |
+| - Bit-rate switching enable/disable (BRSE) | :x: | :heavy_check_mark:[^1] | disabled by default |
+| - CAN FD operation enable/disable (FDOE)   | :x: | :heavy_check_mark:[^1] | disabled by default |
 | Bit-rate settings: | | | |
 | - Pre-defined bit-timing indexes | :heavy_check_mark: | :heavy_check_mark: | acc. CiA CANopen specification |
 | - BTR register values            | :heavy_check_mark: | :heavy_check_mark: | register fields:<br/>- `freq` (clock frequency in [Hz])<br/>- `brp` (bit-rate prescaler)<br/>- `tseg1` (time segment 1)<br/>- `tseg2` (time segment 2)<br/>- `sjw` (synchronization jump width)<br/>- `sam` (number of samples) |
@@ -80,6 +80,8 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Swift, Python |
 
+[^1]: Depends the device hardware or firmware.
+
 ### Change-log
 
 {% for post in site.posts %}
@@ -93,8 +95,12 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 Only the following devices from Kvaser AB are supported:
 - Kvaser Leaf Light v2 (EAN: 73-30130-00685-0)
 - Kvaser Leaf Pro HS v2 (EAN: 73-30130-00843-4)
+- Kvaser U100P (EAN: 73-30130-01174-8)
 
-Note: _**Leaf Pro HS v2** devices can currently only be operated in **CAN 2.0 mode**!_
+Since version 0.3 theoretically all (single-channel) CAN interfaces from Kvaser´s device family *Leaf Interfaces* (CAN 2.0 interfaces, e.g. Leaf Light v2) and from Kvaser´s device family *Mhydra Interfaces* (CAN FD interfaces, e.g. U100P) are supported.
+To add a new CAN USB interface from Kvaser, only its USB ProductID and some device specific attributes have to be entered or enabled in the source code.
+
+Note: _The CAN devices listed above are the ones that are enabled and have been tested._
 
 For technical specifications, prices and delivery terms see [Kvaser´s website](https://www.kvaser.com/products-services/our-products/#/?pc_int=usb).
 
@@ -117,3 +123,5 @@ All other company, product and service names mentioned herein are trademarks, re
 ### Hazard Note
 
 _If you connect your CAN device to a real CAN network when using this library, you might damage your application._
+
+<hr>

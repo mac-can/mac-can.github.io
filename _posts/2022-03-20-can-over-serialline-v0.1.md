@@ -10,13 +10,13 @@ release: Version 0.1 (Commit b828e81 of March 20, 2022)
 
 **Target Platforms**
 
-POSIX&reg; compatible operating systems:
+POSIX<sup>&reg;</sup> compatible operating systems:
 
-1. macOS&reg;
-2. Linux&reg;
-3. Cygwin&reg;
+1. macOS<sup>&reg;</sup>
+2. Linux<sup>&reg;</sup>
+3. Cygwin<sup>&reg;</sup>
 
-Windows&reg; (x64 operating system):
+Windows<sup>&reg;</sup> (x64 operating system):
 
 1. Windows 10 Pro
 
