@@ -8,8 +8,8 @@ release: Version 0.11 (Build 1143 of January 31, 2022)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
-- Built library as Universal macOS Binary ([macOS_Library_for_PCANUSB_v0.11.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.11/macOS_Library_for_PCANUSB_v0.11.tar.gz)).
-- Built library for x86_64 architecture ([OS_X_Library_for_PCANUSB_v0.11.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.11/OS_X_Library_for_PCANUSB_v0.11.tar.gz)).
+- Built the library as Universal macOS Binary ([macOS_Library_for_PCANUSB_v0.11.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.11/macOS_Library_for_PCANUSB_v0.11.tar.gz)).
+- Built the library for x86_64 architecture ([OS_X_Library_for_PCANUSB_v0.11.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.11/OS_X_Library_for_PCANUSB_v0.11.tar.gz)).
 - Synchronized PCBUSB header with PCANBasic header for v4.6.0.
 - Fixed a bug with `PCAN_CHANNEL_CONDITION` when used by another process.
 - Fixed an omission with export declaration for `CAN_LookUpChannel`.
