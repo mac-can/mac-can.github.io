@@ -4,7 +4,7 @@ title:  "PCBUSB-Wrapper - Version 0.2.4 released"
 tag: PCBUSB-Wrapper
 categories: Change-log Wrapper macOS Peak PCBUSB
 artifacts: https://github.com/mac-can/PCBUSB-Wrapper/releases/tag/v0.2.4
-release: Version 0.2.4 (Commit 24603cc of August 2, 2022)
+release: Version 0.2.4 (Commit d42365c of August 2, 2022)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
@@ -13,6 +13,7 @@ release: Version 0.2.4 (Commit 24603cc of August 2, 2022)
 - Fixed a bug with transceiver off in `can_reset`
 - Fixed a bug with BTR0BTR1 register in CAN FD mode
 - Fixed a bug with mapping CAN FD bit-rate to Peak string
+- Realized feature `NXTD` and `NRTR` (software solution)
 - Updated class `CPeakCAN` (some property values)
 - Updated the trial program
 - Updated the Python wrapper
