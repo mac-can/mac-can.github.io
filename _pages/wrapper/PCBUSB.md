@@ -50,8 +50,8 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Operation modes: | | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :x: | :x: | _not supported_ |
-| - Remote frames disable/enable (NRTR)      | :x: | :x: | _not supported_ |
-| - Extended frames disable/enable (NXTD)    | :x: | :x: | _not supported_ |
+| - Remote frames disable/enable (NRTR)      | :heavy_check_mark: | :heavy_check_mark: | disabled by default |
+| - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | :heavy_check_mark: | disabled by default |
 | - Shared access enable/disable (SHRD)      | :x: | :x: | _not supported_ |
 | - Non-ISO CAN FD enable/disable (NISO)     | :x: | :x: | _not supported_ |
 | - Bit-rate switching enable/disable (BRSE) | :x: | :heavy_check_mark: | disabled by default |
@@ -106,7 +106,7 @@ You can choose between one of them if you use this work in whole or in part.
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
 PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany. \
-All other company, product and service names mentioned herein are trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
 
 ### Hazard Note
 

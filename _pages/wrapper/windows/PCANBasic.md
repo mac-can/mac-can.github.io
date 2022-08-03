@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for PEAK PCAN Interfaces (Windows)
 tag: PCANBasic-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.3/artifacts.zip
-srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.3.zip
-srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.3.tar.gz
+latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.4/artifacts.zip
+srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.4.zip
+srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.4.tar.gz
 github: https://github.com/uv-software/PCANBasic-Wrapper
 issues: https://github.com/uv-software/PCANBasic-Wrapper/issues
 ---
@@ -48,8 +48,8 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Operation modes: | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :heavy_check_mark: | disabled by default |
-| - Remote frames disable/enable (NRTR)      | :x: | _not supported_ |
-| - Extended frames disable/enable (NXTD)    | :x: | _not supported_ |
+| - Remote frames disable/enable (NRTR)      | :heavy_check_mark: | disabled by default |
+| - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | disabled by default |
 | - Shared access enable/disable (SHRD)      | :x: | _not supported_ |
 | - Non-ISO CAN FD enable/disable (NISO)     | :x: | _HW settings of the device cannot be changed by the library_ |
 | - Bit-rate switching enable/disable (BRSE) | :heavy_check_mark: | disabled by default |
@@ -103,7 +103,7 @@ You can choose between one of them if you use this work in whole or in part.
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
 PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany. \
-All other company, product and service names mentioned herein are trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
 
 ### Hazard Note
 
