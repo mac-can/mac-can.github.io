@@ -126,7 +126,7 @@ The terms of the GNU General Public License v3.0 (or any later version) apply to
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
 Linux is a registered trademark of Linus Torvalds. \
-All other company, product and service names mentioned herein are trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
 
 ### Hazard Note
 

@@ -48,8 +48,8 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Operation modes: | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :heavy_check_mark: | disabled by default |
-| - Remote frames disable/enable (NRTR)      | :heavy_check_mark: | disabled by default |
-| - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | disabled by default |
+| - Remote frames disable/enable (NRTR)      | :heavy_check_mark: | enabled by default |
+| - Extended frames disable/enable (NXTD)    | :heavy_check_mark: | enabled by default |
 | - Shared access enable/disable (SHRD)      | :x: | _not supported_ |
 | - Non-ISO CAN FD enable/disable (NISO)     | :x: | _HW settings of the device cannot be changed by the library_ |
 | - Bit-rate switching enable/disable (BRSE) | :heavy_check_mark: | disabled by default |
