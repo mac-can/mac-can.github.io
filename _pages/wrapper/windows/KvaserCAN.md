@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for Kvaser CAN Interfaces (Windows)
 tag: KvaserCAN-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/KvaserCAN-Wrapper/releases/download/v0.2.2/artifacts.zip
-srczip: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.2.zip
-srctar: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.2.tar.gz
+latest: https://github.com/uv-software/KvaserCAN-Wrapper/releases/download/v0.2.3/artifacts.zip
+srczip: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.3.zip
+srctar: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.3.tar.gz
 github: https://github.com/uv-software/KvaserCAN-Wrapper
 issues: https://github.com/uv-software/KvaserCAN-Wrapper/issues
 ---
@@ -102,7 +102,7 @@ You can choose between one of them if you use this work in whole or in part.
 
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
-All other company, product and service names mentioned herein are trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
 
 ### Hazard Note
 
