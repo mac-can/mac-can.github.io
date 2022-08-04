@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for USB CAN Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
-latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.3/artifacts.zip
-srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.zip
-srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.tar.gz
+latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.3.1/artifacts.zip
+srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.1.zip
+srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.1.tar.gz
 github: https://github.com/mac-can/KvaserCAN-Library
 issues: https://github.com/mac-can/KvaserCAN-Library/issues
 ---
@@ -26,7 +26,7 @@ A macOS user-space driver for USB CAN Interfaces from Kvaser is provided by UV&n
 The macOS driver for USB CAN interfaces from Kvaser is based on MacCAN-Core which is an abstraction (or rather a wrapper) of Apple´s IOUsbKit to create USB user-space drivers for CAN interfaces from various vendors under macOS.
 The GitHub repository contains the source code for the MacCAN-KvaserCAN driver and several alternatives to build dynamic libraries for macOS, either as a C++ class library (_libKvaserCAN_), or as a CAN&nbsp;API&nbsp;V3 wrapper library (_libUVCANKVL_), as well as some example programs and my beloved CAN utilities `can_moni` and `can_test`.
 
-The MacCAN-KvaserCAN driver comes with an CAN&nbsp;API&nbsp;V3 compatible API.
+The MacCAN-KvaserCAN SDK comes with a CAN&nbsp;API&nbsp;V3 compatible API.
 CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems. See header file `CANAPI.h` for the CAN&nbsp;API&nbsp;V3 interface.
 
 Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
@@ -80,7 +80,7 @@ Note: _This project does not aim to implement Kvaser´s CANlib API on macOS._
 | - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Swift, Python |
 
-[^1]: Depends the device hardware or firmware.
+[^1]: Depends on the device hardware or firmware.
 
 ### Change-log
 
