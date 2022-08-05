@@ -5,7 +5,7 @@ tag: MacCAN-KvaserCAN
 categories: Change-log Drivers macOS Kvaser
 artifacts: https://github.com/mac-can/KvaserCAN-Library/releases/tag/v0.3.1
 project: /drivers/KvaserCAN/
-release: Version 0.3.1 (Commit aaa925f August 4, 2022)
+release: Version 0.3.1 (Commit aaa925f of August 4, 2022)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 

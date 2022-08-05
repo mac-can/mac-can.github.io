@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for TouCAN USB Interfaces from Rusoku
 tag: MacCAN-TouCAN
 type: driver
-latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.3/artifacts.zip
-srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.3.zip
-srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.3.tar.gz
+latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.4/artifacts.zip
+srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.4.zip
+srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.4.tar.gz
 github: https://github.com/mac-can/RusokuCAN.dylib
 issues: https://github.com/mac-can/RusokuCAN.dylib/issues
 ---
@@ -27,7 +27,7 @@ A macOS user-space driver for TouCAN USB interfaces from Rusoku is provided by U
 The macOS driver for TouCAN USB Interfaces from Rusoku is based on MacCAN-Core which is an abstraction (or rather a wrapper) of Apple´s IOUsbKit to create USB user-space drivers for CAN interfaces from various vendors under macOS.
 The GitHub repository contains the source code for the MacCAN-TouCAN driver and several alternatives to build dynamic libraries for macOS, either as a C++ class library (_libTouCAN_), or as a CAN&nbsp;API&nbsp;V3 wrapper library (_libUVCANTOU_), as well as some example programs and my beloved CAN utilities `can_moni` and `can_test`.
 
-The MacCAN-TouCAN driver comes with an CAN&nbsp;API&nbsp;V3 compatible API.
+The MacCAN-TouCAN SDK comes with a CAN&nbsp;API&nbsp;V3 compatible API.
 CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems. See header file `CANAPI.h` for the CAN&nbsp;API&nbsp;V3 wrapper specification.
 
 ### Features
