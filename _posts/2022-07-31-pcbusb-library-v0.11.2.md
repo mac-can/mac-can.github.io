@@ -4,7 +4,7 @@ title:  "PCBUSB-Library - Version 0.11.2 released"
 tag: PCBUSB-Library
 categories: Change-log Drivers macOS Peak PCBUSB
 artifacts: https://github.com/mac-can/PCBUSB-Library/releases/tag/v0.11.2
-release: Version 0.11.2 (Build 1228 of Juli 31, 2022)
+release: Version 0.11.2 (Build 1228 of July 31, 2022)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
