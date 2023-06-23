@@ -12,15 +12,36 @@ My services can be rendered on site or from my office in Berlin, in the form of 
 
 See my [blog](https://uv-software.com/wordpress/category/projects/) for the things I did.
 
-## Memberships
-Since 2007 UV&nbsp;Software is a member of the international CAN users’ and manufacturers’ group [CAN&nbsp;in&nbsp;Automation](https://www.can-cia.org/) (CiA).
-
 ## Sponsoring
-These projects are developed and maintained in my spare time.
+The projects are developed and maintained in my spare time.
 If you like them (all of them, or just one) I would be very happy if you make a donation to my work.
 
 [Support via PayPal](https://paypal.me/uvsoftware){: .btn .btn--primary}
 [Sponsor via GibHub](https://github.com/sponsors/mac-can){: .btn .btn--primary}
+
+### Sponsors
+<table style="border: 0px;">
+  <tr style="border: 0px;">
+    <td style="border: 0px; padding: 0px;">
+      <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
+        <a href="https://github.com/rusoku"> <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/46974254?v=4" width="56px" /></a>
+      </div>
+    </td>
+    <td style="border: 0px; padding: 4px;">
+      <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
+        <a href="https://github.com/TravisJoe"> <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/2984346?v=4" width="56px" /></a>
+      </div>
+    </td>
+    <td style="border: 0px; padding: 0px;">
+      <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
+        <a href="https://github.com/Torrox-GmbH-Co-KG"> <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/127209439?s=200&v=4" width="56px" /></a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+## Memberships
+Since 2007 UV&nbsp;Software is a member of the international CAN users’ and manufacturers’ group [CAN&nbsp;in&nbsp;Automation](https://www.can-cia.org/) (CiA).
 
 ## Contact
 Uwe Vogt uv-software<br>
