@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Library
 type: driver
-latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/OS_X_Library_for_PCANUSB_v0.12.tar.gz
-latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/macOS_Library_for_PCANUSB_v0.12.tar.gz
-readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/macOS_Library_for_PCANUSB_v0.12.readme
+latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/OS_X_Library_for_PCANUSB_v0.12.1.tar.gz
+latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/macOS_Library_for_PCANUSB_v0.12.1.tar.gz
+readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/macOS_Library_for_PCANUSB_v0.12.1.readme
 ---
 The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System Technik, Darmstadt.
 It supports up to 8 PCAN-USB and PCAN-USB FD devices.
