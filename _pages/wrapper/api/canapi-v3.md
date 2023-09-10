@@ -38,7 +38,8 @@ Additionally it provides companion modules for bit-rate conversion and message f
 
 In case of doubt the source code:
 {% include figure image_path="/assets/images/canapi_c_api.png" alt="CAN API V3 (C API)" caption="CAN API V3 C Interface (Copyright &copy; 2004-2021 by UV Software, Berlin)" %}
-See header file `can_api.h` for a description of the provided functions.
+A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs). 
+
 
 ### SDKs
 

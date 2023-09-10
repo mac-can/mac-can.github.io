@@ -56,10 +56,12 @@ A macOS<sup>&reg;</sup> user-space driver for PCAN-USB Interfaces from PEAK-Syst
 The macOS<sup>&reg;</sup> driver libraries come with a CAN&nbsp;API&nbsp;V3 compatible API in the SDK,
 or alternatively wrapper libraries are available as separate SDKs for macOS<sup>&reg;</sup> as well as for Windows<sup>&reg;</sup>.
 
-<!-- div style="display: block; text-align: center;">
+<div style="display: block; text-align: center;">
   <div style="width: 100%; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 10px; border-width: 1px; border-style: solid; border-color: #FFFFFF; border-radius: 20px;">
-      <img src="/assets/images/wiki_icon.png" alt="MacCAN-Wiki" />
+      <a href="https://uv-software.github.io/CANAPI-Docs/" title="CAN API V3 Reference"><img src="/assets/images/wiki_icon.png" alt="CANAPI-Docs" /></a>
       <img src="/assets/images/library_icon_na.png" alt="MacCAN-Library" />
       <img src="/assets/images/apps_icon_na.png" alt="MacCAN-Monitor" />
   </div>
-</div -->
+</div>
+<br/>
+Happy CANgineering [:heart:](https://github.com/sponsors/mac-can)
