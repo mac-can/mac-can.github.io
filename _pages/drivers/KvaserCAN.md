@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for USB CAN Interfaces from Kvaser
 tag: MacCAN-KvaserCAN
 type: driver
-latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.3.1/artifacts.zip
-srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.1.zip
-srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.1.tar.gz
+latest: https://github.com/mac-can/KvaserCAN-Library/releases/download/v0.3.2/artifacts.zip
+srczip: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.2.zip
+srctar: https://github.com/mac-can/KvaserCAN-Library/archive/tags/v0.3.2.tar.gz
 github: https://github.com/mac-can/KvaserCAN-Library
 issues: https://github.com/mac-can/KvaserCAN-Library/issues
 ---
@@ -107,6 +107,10 @@ For technical specifications, prices and delivery terms see [Kvaser´s website](
 ### Known Bugs and Caveats
 
 For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the GitHub repo.
+
+### CAN API V3 Reference
+
+A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs). 
 
 ### Dual-License
 
