@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for PEAK PCAN Interfaces (Windows)
 tag: PCANBasic-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.5/artifacts.zip
-srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.5.zip
-srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.5.tar.gz
+latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.6/artifacts.zip
+srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.6.zip
+srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.6.tar.gz
 github: https://github.com/uv-software/PCANBasic-Wrapper
 issues: https://github.com/uv-software/PCANBasic-Wrapper/issues
 ---
@@ -26,6 +26,8 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 The PCANBasic wrapper library provides a CAN&nbsp;API&nbsp;V3 compatible API for PEAK´s PCANBasic DLL on Windows.
 
 The GitHub repository contains the source code for the PCANBasic wrapper library and several alternatives to build dynamic link libraries, either as a C++ class library (_uvPeakCAN.dll_), or as a CAN&nbsp;API&nbsp;V3 wrapper library (_u3canpcb.dll_), as well as some example programs and my beloved CAN utilities `can_moni.exe` and `can_test.exe`.
+
+A generic documentation of the CAN&nbsp;API&nbsp;V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs/#/).
 
 Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper Library](/wrapper/PCANBasic/) for macOS._
 

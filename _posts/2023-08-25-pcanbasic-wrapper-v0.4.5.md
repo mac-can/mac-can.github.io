@@ -10,7 +10,7 @@ release: Version 0.4.5 (Commit 0b3f025 August 25, 2023)
 
 - Migrated to VS 2022 (version 17.7.2)
 - Updated PCANBasic DLL (version 4.7.1)
-- Updated CAN API V3 sources to rev. 1155 and apply the changes:
+- Updated CAN API V3 sources to rev. 1155 and applied the changes:
   - Added old error code -40 as `queue overrun error` and renumbered error `error frame received` from -40 to -19
   - Removed unused error code `CANERR_ERR_FRAME` (note: the error code -19 is marked as reserved)
   - Removed flag `fdoe` and `brse` from struct `can_speed_t` (note: the flags are marked as reserved)
