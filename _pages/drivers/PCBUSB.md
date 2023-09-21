@@ -58,7 +58,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Objective-C Wrapper | :heavy_check_mark: | available |
 | Python Wrapper | :heavy_check_mark: | available |
 | Swift Wrapper | :x: | _not available_ |
-| CAN&nbsp;API&nbsp;V3 Wrapper | :heavy_check_mark: | available for [macOS](/wrapper/PCANBasic/) and [Windows](/wrapper/windows/PCANBasic/) |
+| CAN&nbsp;API&nbsp;V3 Wrapper | :heavy_check_mark: | available for [macOS](/wrapper/PCANBasic/), [Linux](/wrapper/PCANBasic/) and [Windows](/wrapper/windows/PCANBasic/) |
 | Utilities | :heavy_check_mark: | CLI utilities: [`can_moni`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) and [`can_test`](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:programs:can_moni_mac) |
 | Examples | :heavy_check_mark: | C++, Python, Objective-C ([Demo App](https://github.com/mac-can/PCBUSB-Monitor)) |
 

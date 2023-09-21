@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS Wrapper Library for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Wrapper
 type: wrapper
-latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.2.5/artifacts.zip
-srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.5.zip
-srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.5.tar.gz
+latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.2.6/artifacts.zip
+srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.6.zip
+srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.6.tar.gz
 github: https://github.com/mac-can/PCBUSB-Wrapper
 issues: https://github.com/mac-can/PCBUSB-Wrapper/issues
 ---
@@ -74,6 +74,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - Static library  | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.a`, `libPeakCAN.a` |
 | - Source code     | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
 | - M1 chip         | :heavy_check_mark: | :heavy_check_mark: | Universal macOS Binary |
+| - Linux support   | :heavy_check_mark: | :heavy_check_mark: | requires PCAN Linux chardev driver |
 | - Swift wrapper   | :x: | :x: | _not available_ |
 | - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 3.8 |
 | - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/PCANBasic/) |
@@ -95,6 +96,10 @@ For a list of supported device see page [PCBUSB library](/drivers/libPCBUSB.html
 ### Known Bugs and Caveats
 
 For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the GitHub repo.
+
+### CAN API V3 Reference
+
+A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs). 
 
 ### Dual-License
 
