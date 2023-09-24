@@ -84,7 +84,7 @@ author:
 #      url: "https://mac-can.com"
     - label: "Blog"
       icon: "fas fa-fw fa-blog"
-      url: "https://uv-software.com/wordpress"
+      url: "https://www.uv-software.de/dokuwiki/doku.php?id=uvs:cv_en"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/uv_software"

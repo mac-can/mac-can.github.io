@@ -10,7 +10,7 @@ As an independent software developer, I provide services in all areas related to
 I specialize in microcontroller programming and field bus systems, in particular the CAN bus and CANopen protocol.
 My services can be rendered on site or from my office in Berlin, in the form of a work order or a service agreement.
 
-See my [blog](https://uv-software.com/wordpress/category/projects/) for the things I did.
+See my [blog](https://www.uv-software.de/dokuwiki/doku.php?id=uvs:cv_en) for the things I did.
 
 ## Sponsoring
 The projects are developed and maintained in my spare time.
