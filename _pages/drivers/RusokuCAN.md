@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for TouCAN USB Interfaces from Rusoku
 tag: MacCAN-TouCAN
 type: driver
-latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.4/artifacts.zip
-srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.4.zip
-srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.4.tar.gz
+latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.5/artifacts.zip
+srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.5.zip
+srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.5.tar.gz
 github: https://github.com/mac-can/RusokuCAN.dylib
 issues: https://github.com/mac-can/RusokuCAN.dylib/issues
 ---
@@ -98,6 +98,10 @@ For technical specifications, prices and delivery terms see [Rusoku´s website](
 
 For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the GitHub repo.
 
+### CAN API V3 Reference
+
+A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs). 
+
 ### Licenses
 
 #### MacCAN-TouCAN License
@@ -126,7 +130,7 @@ The terms of the GNU General Public License v3.0 (or any later version) apply to
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
 Linux is a registered trademark of Linus Torvalds. \
-All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks, or service marks of their respective owners.
 
 ### Hazard Note
 
