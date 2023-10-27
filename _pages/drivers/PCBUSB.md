@@ -11,7 +11,7 @@ latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.
 readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/macOS_Library_for_PCANUSB_v0.12.1.readme
 ---
 The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System Technik, Darmstadt.
-It supports up to 8 PCAN-USB and PCAN-USB FD devices.
+It supports up to 8 PCAN-USB or PCAN-USB FD devices.
 The library offers an easy to use API to read received CAN messages from a 64K message queue and to transmit CAN messages.
 Standard CAN frames (11-bit identifier) as well as extended CAN frames (29-bit identifier) are supported.
 The PCAN-USB FD device can be operated in CAN 2.0 and CAN FD mode.
