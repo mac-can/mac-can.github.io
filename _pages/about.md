@@ -22,6 +22,11 @@ If you like them (all of them, or just one) I would be very happy if you donate 
 ### Sponsors
 <table style="border: 0px;">
   <tr style="border: 0px;">
+    <td style="border: 0px; padding: 2px;">
+      <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
+        <a href="https://www.peak-system.com/"> <img style="border-radius: 100%;" src="/assets/images/PEAK-System_rund.png" width="56px" /></a>
+      </div>
+    </td>
     <!-- td style="border: 0px; padding: 2px;">
       <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
         <a href="https://github.com/rusoku"> <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/46974254?v=4" width="56px" /></a>
