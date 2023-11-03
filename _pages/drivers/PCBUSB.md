@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Library
 type: driver
-latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/OS_X_Library_for_PCANUSB_v0.12.1.tar.gz
-latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/macOS_Library_for_PCANUSB_v0.12.1.tar.gz
-readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.1/macOS_Library_for_PCANUSB_v0.12.1.readme
+latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.2/OS_X_Library_for_PCANUSB_v0.12.2.tar.gz
+latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.2/macOS_Library_for_PCANUSB_v0.12.2.tar.gz
+readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.2/macOS_Library_for_PCANUSB_v0.12.2.readme
 ---
 The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System Technik, Darmstadt.
 It supports up to 8 PCAN-USB or PCAN-USB FD devices.
@@ -95,7 +95,7 @@ Please note the copyright and license agreement.
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
 PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany. \
 Qt is a registered trademark of The Qt Company Ltd. and its subsidiaries. \
-All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks, or service marks of their respective owners.
 
 ### Hazard Note
 
