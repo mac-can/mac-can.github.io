@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN Monitor App for macOS (Demo)
 tag: PCBUSB-Monitor
 type: demo
-latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.1_uni.dmg
-x86_64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.1_x86.dmg
-readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.1.pdf
+latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor_0.5.1_uni.dmg
+x86_64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor_0.5.1_x86.dmg
+readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor_0.5.1.pdf
 ---
 The MacCAN Monitor App is a little demo program to show the functionally of the [PCBUSB library](/drivers/libPCBUSB.html): the macOS Library for PCAN-USB interfaces.
 
