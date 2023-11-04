@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN Monitor App for macOS (Demo)
 tag: PCBUSB-Monitor
 type: demo
-latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5_uni.dmg
-x86_64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5_x86.dmg
-readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.pdf
+latest: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.1_uni.dmg
+x86_64: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.1_x86.dmg
+readme: http://www.uv-software.de/files/downloads/MacCAN/PCANUSB/Applications/MacCAN_Monitor_App/MacCAN_Monitor.0.5.1.pdf
 ---
 The MacCAN Monitor App is a little demo program to show the functionally of the [PCBUSB library](/drivers/libPCBUSB.html): the macOS Library for PCAN-USB interfaces.
 
@@ -73,7 +73,7 @@ Apple M1 support by Sebastião Beirão (https://github.com/sebashb).
 
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
 PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany. \
-All other company, product and service names mentioned herein may be trademarks, registered trademarks or service marks of their respective owners.
+All other company, product and service names mentioned herein may be trademarks, registered trademarks, or service marks of their respective owners.
 
 ### Hazard Note
 
