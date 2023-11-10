@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for PEAK PCAN Interfaces (Windows)
 tag: PCANBasic-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.6/artifacts.zip
-srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.6.zip
-srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.6.tar.gz
+latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.7/artifacts.zip
+srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.7.zip
+srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.7.tar.gz
 github: https://github.com/uv-software/PCANBasic-Wrapper
 issues: https://github.com/uv-software/PCANBasic-Wrapper/issues
 ---
