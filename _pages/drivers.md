@@ -9,6 +9,20 @@ There are many companies offering multifarious CAN hardware and CAN software.
 Unfortunately, few of them provide a driver for the Mac.
 UV&nbsp;Software provides USB-to-CAN user-space drivers for macOS.
 
+## PCAN-USB Interfaces from PEAK-System
+
+PEAK-System is a leading provider of hardware, software, and services for the mobile and industrial communication sector with emphasis on the field buses CAN and LIN.
+The PCBUSB library* realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System.
+
+{% for page in site.pages %}
+{% if page.type == 'driver' and page.tag == 'PCBUSB-Library' %}
+[Download (x86_64)]({{page.latest_x86_64}}){: .btn .btn--primary}
+[Download (arm64)]({{page.latest_arm64}}){: .btn .btn--primary}
+[Readme]({{page.readme}}){: .btn .btn--primary}
+[Learn More](/drivers/libPCBUSB.html){: .btn .btn--primary}
+{% endif %}
+{% endfor %}
+
 ## TouCAN USB Interfaces from Rusoku
 
 Rusoku Technologies is an innovative engineering team based in Lithuania, Europe.
@@ -40,16 +54,11 @@ A macOS user-space driver for USB CAN Interfaces from Kvaser is provided by UV&n
 {% endif %}
 {% endfor %}
 
-## PCAN-USB Interfaces from PEAK-System
-
-PEAK-System is a leading provider of hardware, software, and services for the mobile and industrial communication sector with emphasis on the field buses CAN and LIN.
-The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System.
-
-{% for page in site.pages %}
-{% if page.type == 'driver' and page.tag == 'PCBUSB-Library' %}
-[Download (x86_64)]({{page.latest_x86_64}}){: .btn .btn--primary}
-[Download (arm64)]({{page.latest_arm64}}){: .btn .btn--primary}
-[Readme]({{page.readme}}){: .btn .btn--primary}
-[Learn More](/drivers/libPCBUSB.html){: .btn .btn--primary}
-{% endif %}
-{% endfor %}
+<hr>
+<p>
+  <small>*) 
+    <em>The PCBUSB library is closed source for several reasons.
+        In contrast to the other driver projects, only binaries for macOS are offered for download.
+    </em>
+  </small>
+</p>

@@ -32,12 +32,12 @@ Additionally it provides companion modules for bit-rate conversion and message f
 
 ## CAN Interface API, Version 3
 
-{% include figure image_path="/assets/images/canapi_macos.png" alt="CAN API V3 for macOS" caption="CAN API V3 on macOS<sup>&reg;</sup> (Copyright &copy; 2012-2021 by UV Software, Berlin)" %}
+{% include figure image_path="/assets/images/canapi_macos.png" alt="CAN API V3 for macOS" caption="CAN API V3 on macOS<sup>&reg;</sup> (Copyright &copy; 2012-2023 by UV Software, Berlin)" %}
 
 ### API
 
 In case of doubt the source code:
-{% include figure image_path="/assets/images/canapi_c_api.png" alt="CAN API V3 (C API)" caption="CAN API V3 C Interface (Copyright &copy; 2004-2021 by UV Software, Berlin)" %}
+{% include figure image_path="/assets/images/canapi_c_api.png" alt="CAN API V3 (C API)" caption="CAN API V3 C Interface (Copyright &copy; 2004-2023 by UV Software, Berlin)" %}
 A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs). 
 
 
@@ -48,8 +48,8 @@ or alternatively wrapper libraries are available as separate SDKs for macOS as w
 
 | CAN&nbsp;API&nbsp;V3 SDK | macOS<sup>&reg;</sup><br/>Driver Library | macOS<sup>&reg;</sup><br/>Wrapper Library | Windows<sup>&reg;</sup><br/>Wrapper Library |
 |:-------------- |:--------------------:|:---------------------:|:-----------------------:|
+| [PCAN-USB Interfaces](/wrapper/PCANBasic/)   | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | [TouCAN USB Interfaces](/wrapper/RusokuCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :x: |
-| [CAN Leaf Interfaces](/wrapper/KvaserCAN/) | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :heavy_check_mark: |
-| [PCAN-USB Interfaces](/wrapper/PCANBasic/) | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| [CAN Leaf Interfaces](/wrapper/KvaserCAN/)   | :heavy_check_mark: | (:heavy_check_mark:)<sup>*</sup> | :heavy_check_mark: |
 
 _<sup>*)</sup> The wrapper API is included in the SDK of the driver library._

@@ -11,6 +11,18 @@ Unfortunately, few of them provide a driver for the Mac.
 
 **UV&nbsp;Software provides macOS<sup>&reg;</sup> user-space drivers for USB-to-CAN interfaces from various vendors.**
 
+## PCAN-USB Interfaces from PEAK-System
+[PEAK-System](https://www.peak-system.com) is a leading provider of hardware, software, and services for the mobile and industrial communication sector with emphasis on the field buses CAN and LIN.
+A macOS<sup>&reg;</sup> user-space driver for PCAN-USB Interfaces from PEAK-System is provided by UV&nbsp;Software.
+
+<div style="display: block; text-align: center;">
+  <div style="width: 100%; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 10px; border-width: 1px; border-style: solid; border-color: #FFFFFF; border-radius: 20px;">
+      <a href="/drivers/libPCBUSB.html" title="macOS<sup>&reg;</sup> Driver for PCAN-USB Interfaces"><img src="/assets/images/driver_icon.png" alt="PCBUSB-Library" /></a>
+      <a href="/wrapper/PCANBasic/" title="CAN API V3 Wrapper Library for PCAN-USB Interfaces"><img src="/assets/images/wrapper_icon.png" alt="PCBUSB-Wrapper" /></a>
+      <a href="/apps/demo/PCBUSB-Monitor.html" title="CAN Monitor App for macOS<sup>&reg;</sup> (Demo)"><img src="/assets/images/apps_icon.png" alt="PCBUSB-Monitor" /></a>
+  </div>
+</div>
+
 ## TouCAN USB Interfaces from Rusoku
 [Rusoku Technologies](https://rusoku.com) is an innovative engineering team based in Lithuania, Europe.
 They offer CAN adapter at a reasonable price.
@@ -38,18 +50,6 @@ A macOS<sup>&reg;</sup> user-space driver for USB CAN Interfaces from Kvaser is 
   </div>
 </div>
 
-## PCAN-USB Interfaces from PEAK-System
-[PEAK-System](https://www.peak-system.com) is a leading provider of hardware, software, and services for the mobile and industrial communication sector with emphasis on the field buses CAN and LIN.
-A macOS<sup>&reg;</sup> user-space driver for PCAN-USB Interfaces from PEAK-System is provided by UV&nbsp;Software.
-
-<div style="display: block; text-align: center;">
-  <div style="width: 100%; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 10px; border-width: 1px; border-style: solid; border-color: #FFFFFF; border-radius: 20px;">
-      <a href="/drivers/libPCBUSB.html" title="macOS<sup>&reg;</sup> Driver for PCAN-USB Interfaces"><img src="/assets/images/driver_icon.png" alt="PCBUSB-Library" /></a>
-      <a href="/wrapper/PCANBasic/" title="CAN API V3 Wrapper Library for PCAN-USB Interfaces"><img src="/assets/images/wrapper_icon.png" alt="PCBUSB-Wrapper" /></a>
-      <a href="/apps/demo/PCBUSB-Monitor.html" title="CAN Monitor App for macOS<sup>&reg;</sup> (Demo)"><img src="/assets/images/apps_icon.png" alt="PCBUSB-Monitor" /></a>
-  </div>
-</div>
-
 ## CAN Interface API by UV&nbsp;Software
 
 [CAN&nbsp;API&nbsp;V3](/wrapper/canapi-v3/) is a wrapper specification by UV&nbsp;Software to have a uniform CAN Interface API for various CAN interfaces from different vendors running under multiple operating systems.
@@ -64,4 +64,6 @@ or alternatively wrapper libraries are available as separate SDKs for macOS<sup>
   </div>
 </div>
 <br/>
+
+<hr>
 Happy CANgineering [:heart:](https://github.com/sponsors/mac-can)
