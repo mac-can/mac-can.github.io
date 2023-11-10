@@ -2,7 +2,7 @@
 layout: single
 title:  "PCBUSB-Wrapper - Version 0.2.6 released"
 tag: PCBUSB-Wrapper
-categories: Change-log Wrapper macOS Peak PCBUSB
+categories: Change-log Wrapper macOS Linux Peak PCBUSB
 artifacts: https://github.com/mac-can/PCBUSB-Wrapper/releases/tag/v0.2.6
 release: Version 0.2.6 (Commit e088ff of September 21, 2023)
 ---
