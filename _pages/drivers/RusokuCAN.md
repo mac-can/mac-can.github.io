@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for TouCAN USB Interfaces from Rusoku
 tag: MacCAN-TouCAN
 type: driver
-latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.5/artifacts.zip
-srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.5.zip
-srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.5.tar.gz
+latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.6/artifacts.zip
+srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.6.zip
+srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.6.tar.gz
 github: https://github.com/mac-can/RusokuCAN.dylib
 issues: https://github.com/mac-can/RusokuCAN.dylib/issues
 ---
