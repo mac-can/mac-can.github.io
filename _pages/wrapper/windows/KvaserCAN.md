@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for Kvaser CAN Interfaces (Windows)
 tag: KvaserCAN-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/KvaserCAN-Wrapper/releases/download/v0.2.5/artifacts.zip
-srczip: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.5.zip
-srctar: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.2.5.tar.gz
+latest: https://github.com/uv-software/KvaserCAN-Wrapper/releases/download/v0.3/artifacts.zip
+srczip: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.3.zip
+srctar: https://github.com/uv-software/KvaserCAN-Wrapper/archive/tags/v0.3.tar.gz
 github: https://github.com/uv-software/KvaserCAN-Wrapper
 issues: https://github.com/uv-software/KvaserCAN-Wrapper/issues
 ---
@@ -44,7 +44,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Error indicator (ESI)    | :heavy_check_mark: | CAN FD only |
 | Bit-rate switching (BRS) | :heavy_check_mark: | CAN FD only |
 | Silent operation (MON)   | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Identifier filtering     | :x: | CAN 2.0 and CAN FD |
+| Identifier filtering     | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | Operation modes: | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :heavy_check_mark: | disabled by default |
@@ -72,7 +72,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - 32-bit version (x86) | :heavy_check_mark: | supported |
 | - 64-bit version (x64) | :heavy_check_mark: | supported |
 | - Source code          | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
-| - Python wrapper       | :x: | Python 3.7 |
+| - Python wrapper       | :heavy_check_mark: | Python 3 |
 | - macOS wrapper        | :heavy_check_mark: | [macOS Driver and SDK](/wrapper/KvaserCAN/) |
 | - Utilities            | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples             | :heavy_check_mark: | C, C++, Python |
