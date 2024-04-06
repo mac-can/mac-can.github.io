@@ -6,9 +6,9 @@ toc_sticky: true
 title: CAN API V3 Wrapper Library for PEAK PCAN Interfaces (Windows)
 tag: PCANBasic-Wrapper
 type: wrapper
-latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.4.7/artifacts.zip
-srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.7.zip
-srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.4.7.tar.gz
+latest: https://github.com/uv-software/PCANBasic-Wrapper/releases/download/v0.5/artifacts.zip
+srczip: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.5.zip
+srctar: https://github.com/uv-software/PCANBasic-Wrapper/archive/tags/v0.5.tar.gz
 github: https://github.com/uv-software/PCANBasic-Wrapper
 issues: https://github.com/uv-software/PCANBasic-Wrapper/issues
 ---
@@ -46,7 +46,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Error indicator (ESI)    | :heavy_check_mark: | CAN FD only |
 | Bit-rate switching (BRS) | :heavy_check_mark: | CAN FD only |
 | Silent operation (MON)   | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Identifier filtering     | :x: | CAN 2.0 and CAN FD |
+| Identifier filtering     | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | Operation modes: | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :heavy_check_mark: | disabled by default |
@@ -65,7 +65,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 |   - Timed out          | :heavy_check_mark: | wait up to 65'534 milliseconds |
 |   - Blocking read      | :heavy_check_mark: | wait infinitely |
 | Message transmission:  | | |
-| - Acknowledged write   | :x: | _not supported_  |
+| - Acknowledged write   | :x: | _not supported by the firmware_  |
 | - Buffered write       | :heavy_check_mark: | _buffer size depends on the hardware_ |
 | Software Development Kit: | | |
 | - CAN API V3           | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
@@ -74,7 +74,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - 32-bit version (x86) | :heavy_check_mark: | supported |
 | - 64-bit version (x64) | :heavy_check_mark: | supported |
 | - Source code          | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
-| - Python wrapper       | :x: | Python 3.10 |
+| - Python wrapper       | :heavy_check_mark: | Python 3 |
 | - macOS wrapper        | :heavy_check_mark: | [macOS Driver and SDK](/wrapper/PCANBasic/) |
 | - Utilities            | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples             | :heavy_check_mark: | C, C++, Python |
