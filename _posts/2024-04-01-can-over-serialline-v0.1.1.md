@@ -8,7 +8,6 @@ release: Version 0.1.1 (Commit 584f16f of April 1, 2024)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
-Major changes:
 - update CAN API V3 sources to rev. 1260
 - update SLCAN protocol sources to rev. 808
 - update the Trial program
