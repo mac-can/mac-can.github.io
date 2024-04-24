@@ -71,10 +71,10 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 | - CAN API V3      | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
 | - Dynamic library | :heavy_check_mark: | `libUVCANTOU.dylib`, `libTouCAN.dylib` |
 | - Static library  | :heavy_check_mark: | `libUVCANTOU.a`, `libTouCAN.a` |
-| - Source code     | :heavy_check_mark: | GPL-3.0-or-later |
+| - Source code     | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
 | - Apple silicon   | :heavy_check_mark: | and Intel architecture |
 | - Swift wrapper   | :heavy_check_mark: | Swift 5.5 (including SPM) |
-| - Python wrapper  | :heavy_check_mark: | Python 2.7 and 3.8 |
+| - Python wrapper  | :heavy_check_mark: | Python 3.8 |
 | - Windows wrapper | :heavy_check_mark: | _not available_ |
 | - Utilities       | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
 | - Examples        | :heavy_check_mark: | C, C++, Swift, Python |
