@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for TouCAN USB Interfaces from Rusoku
 tag: MacCAN-TouCAN
 type: driver
-latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.2.6/artifacts.zip
-srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.6.zip
-srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.2.6.tar.gz
+latest: https://github.com/mac-can/RusokuCAN.dylib/releases/download/v0.3/artifacts.zip
+srczip: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.3.zip
+srctar: https://github.com/mac-can/RusokuCAN.dylib/archive/tags/v0.3.tar.gz
 github: https://github.com/mac-can/RusokuCAN.dylib
 issues: https://github.com/mac-can/RusokuCAN.dylib/issues
 ---
@@ -38,14 +38,14 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 | CAN FD                   | :x: |  Flexible Data-rate CAN |
 | Bit-rate, CAN 2.0        | :heavy_check_mark: | high speed: up to 1 Mbps |
 | Bit-rate, CAN FD         | :x: | nominal: up to 1 Mbps <br/> data phase: up to 8 Mbps |
-| 11-bit identifier (STD)  | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| 29-bit identifier (XTD)  | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Remote frames (RTR)      | :heavy_check_mark: | CAN 2.0 only |
-| Error frames (ERR)       | :heavy_check_mark: | CAN 2.0 and CAN FD |
+| 11-bit identifier (STD)  | :heavy_check_mark: | CAN 2.0 |
+| 29-bit identifier (XTD)  | :heavy_check_mark: | CAN 2.0 |
+| Remote frames (RTR)      | :heavy_check_mark: | CAN 2.0 |
+| Error frames (ERR)       | :heavy_check_mark: | CAN 2.0 |
 | Error indicator (ESI)    | :x: | CAN FD only |
 | Bit-rate switching (BRS) | :x: | CAN FD only |
-| Listen-only mode (MON)   | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Identifier filtering     | :x: | CAN 2.0 and CAN FD |
+| Listen-only mode (MON)   | :heavy_check_mark: | CAN 2.0 |
+| Identifier filtering     | :heavy_check_mark: | CAN 2.0, Std. and Xtd. IDs |
 | Operation modes: | | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :heavy_check_mark: | disabled by default |
@@ -53,8 +53,8 @@ CAN&nbsp;API&nbsp;V3 is a wrapper specification by UV&nbsp;Software to have a un
 | - Extended frames disable/enable (NXTD)    | :x: | _not supported_ |
 | - Shared access enable/disable (SHRD)      | :x: | _not supported_ |
 | - Non-ISO CAN FD enable/disable (NISO)     | :x: | _not supported_ |
-| - Bit-rate switching enable/disable (BRSE) | :x: | disabled by default |
-| - CAN FD operation enable/disable (FDOE)   | :x: | disabled by default |
+| - Bit-rate switching enable/disable (BRSE) | :x: | _not supported_ |
+| - CAN FD operation enable/disable (FDOE)   | :x: | _not supported_ |
 | Bit-rate settings: | | | |
 | - Pre-defined bit-timing indexes | :heavy_check_mark: | acc. CiA CANopen specification |
 | - BTR register values            | :heavy_check_mark: | register fields:<br/>- `freq` (clock frequency in [Hz])<br/>- `brp` (bit-rate prescaler)<br/>- `tseg1` (time segment 1)<br/>- `tseg2` (time segment 2)<br/>- `sjw` (synchronization jump width)<br/>- `sam` (number of samples) |
@@ -100,30 +100,15 @@ For a list of known bugs and caveats see tab [Issues]({{page.issues}}) in the Gi
 
 ### CAN API V3 Reference
 
-A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs). 
+A generic documentation of the CAN API V3 application programming interface can be found [here](https://uv-software.github.io/CANAPI-Docs/#/).
 
-### Licenses
+### Dual-License
 
-#### MacCAN-TouCAN License
-
-MacCAN-TouCAN is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-MacCAN-TouCAN is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with MacCAN-TouCAN.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
-
-#### MacCAN-Core License
-
-MacCAN-Core (which includes CAN API V3) is dual-licensed under the terms of the BSD 2-Clause "Simplified" License
+Except where otherwise noted, this work is dual-licensed under the terms of the BSD 2-Clause "Simplified" License
 and under the terms of the GNU General Public License v3.0 (or any later version).
-The terms of the GNU General Public License v3.0 (or any later version) apply to this work, see above.
+You can choose between one of them if you use these portions of this work in whole or in part.
+
+`SPDX-License-Identifier: BSD-2-Clause OR GPL-3.0-or-later`
 
 ### Trademarks
 
