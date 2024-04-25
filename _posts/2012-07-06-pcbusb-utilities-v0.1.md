@@ -8,4 +8,4 @@ release: Version 0.1 (Build 86 of July 6, 2012)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
-- _reverted_
+_Rejected_ due to a deadlock.
