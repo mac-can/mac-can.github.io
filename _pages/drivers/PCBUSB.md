@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS<sup>&reg;</sup> User-Space Driver and SDK for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Library
 type: driver
-latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.2/OS_X_Library_for_PCANUSB_v0.12.2.tar.gz
-latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.2/macOS_Library_for_PCANUSB_v0.12.2.tar.gz
-readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12.2/macOS_Library_for_PCANUSB_v0.12.2.readme
+latest_x86_64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.13/OS_X_Library_for_PCANUSB_v0.13.tar.gz
+latest_arm64: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.13/macOS_Library_for_PCANUSB_v0.13.tar.gz
+readme: https://github.com/mac-can/PCBUSB-Library/releases/download/v0.13/macOS_Library_for_PCANUSB_v0.13.readme
 ---
 The PCBUSB library realizes a USB-to-CAN user-space driver under macOS for PCAN-USB interfaces from PEAK-System Technik, Darmstadt.
 It supports up to 8 PCAN-USB or PCAN-USB FD devices.
@@ -48,11 +48,11 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Monitor mode (MON) | :heavy_check_mark: | listen-only mode (transmitter off) |
 | Receive queue (FIFO) | :heavy_check_mark: | up to 65'536 CAN messages |
 | Blocking read | :heavy_check_mark: | via a file descriptor and system call `select`; see [example](https://gist.github.com/mac-can/8fea17c5e8398478a2e065dd37fe5f6f) |
-| Identifier filtering | :x: | _not realized yet_ |
+| Identifier filtering | :heavy_check_mark: | only one filter for 11-bit and 29-bit identifier (SJA1000) |
 | Non-ISO CAN FD mode | (:heavy_check_mark:) | _HW settings of the device cannot be changed by the library_ |
 | Software interface (API) | :heavy_check_mark: | compatible to PEAK´s PCANBasic API _with some limitations_ |
 | Dynamic library (`.dylib`) | :heavy_check_mark: | for Intel architecture and as Universal macOS Binary |
-| Static library (`.a`) | :x: | _not available_ |
+| Static library (`.a`) | :heavy_check_mark: | Universal macOS Binary |
 | Source code | :x: | **_not available_** |
 | M1 Chip | :heavy_check_mark: | Universal macOS Binary |
 | Objective-C Wrapper | :heavy_check_mark: | available |

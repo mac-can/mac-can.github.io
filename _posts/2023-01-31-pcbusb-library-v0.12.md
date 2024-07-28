@@ -8,8 +8,6 @@ release: Version 0.12 (Build 1668 of January 31, 2023)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
-- Built the library as Universal macOS Binary ([macOS_Library_for_PCANUSB_v0.12.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/macOS_Library_for_PCANUSB_v0.12.tar.gz))
-- Built the library for x86_64 architecture ([OS_X_Library_for_PCANUSB_v0.12.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/OS_X_Library_for_PCANUSB_v0.12.tar.gz))
 - Realized setting of device id. for PCAN-USB FD devices
 - Reworked status frame handling:
   - fixed some bugs in the driver layer (all device types)
@@ -42,3 +40,8 @@ release: Version 0.12 (Build 1668 of January 31, 2023)
 - Fixed a bug with `GetValue(BITRATE_INFO_FD)` w/o BRSE
 - Fixed a bug with size of parameter `PCAN_TRACE_SIZE`
 - Fixed some findings from static code analysis (Xcode and cppcheck)
+
+Artifacts:
+- Library as Universal macOS Binary ([macOS_Library_for_PCANUSB_v0.12.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/macOS_Library_for_PCANUSB_v0.12.tar.gz))
+- Library for x86_64 architecture ([OS_X_Library_for_PCANUSB_v0.12.tar.gz](https://github.com/mac-can/PCBUSB-Library/releases/download/v0.12/OS_X_Library_for_PCANUSB_v0.12.tar.gz))
+
