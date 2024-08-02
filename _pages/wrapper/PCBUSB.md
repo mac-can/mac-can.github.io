@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS Wrapper Library for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Wrapper
 type: wrapper
-latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.2.9/artifacts.zip
-srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.9.zip
-srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.2.9.tar.gz
+latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.3/artifacts.zip
+srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.3.zip
+srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.3.tar.gz
 github: https://github.com/mac-can/PCBUSB-Wrapper
 issues: https://github.com/mac-can/PCBUSB-Wrapper/issues
 ---
@@ -46,7 +46,7 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | Error indicator (ESI)    | :x: | :heavy_check_mark: | CAN FD only |
 | Bit-rate switching (BRS) | :x: | :heavy_check_mark: | CAN FD only |
 | Listen-only mode (MON)   | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
-| Identifier filtering     | :x: | :x: | CAN 2.0 and CAN FD |
+| Identifier filtering     | :heavy_check_mark: | :heavy_check_mark: | CAN 2.0 and CAN FD |
 | Operation modes: | | | |
 | - Monitor mode enable/disable (MON)        | :heavy_check_mark: | :heavy_check_mark: | disabled by default |
 | - Error frames enable/disable (ERR)        | :x: | :x: | _not supported_ |
@@ -103,14 +103,17 @@ A generic documentation of the CAN API V3 application programming interface can 
 
 ### Dual-License
 
-This work is dual-licensed under the terms of the BSD 2-Clause "Simplified" License and under the terms of the GNU General Public License v3.0 (or any later version).
-You can choose between one of them if you use this work in whole or in part.
+Except where otherwise noted, this work is dual-licensed under the terms of the BSD 2-Clause "Simplified" License and under the terms of the GNU General Public License v3.0 (or any later version).
+You can choose between one of them if you use these portions of this work in whole or in part.
 
 ### Trademarks
 
 Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. \
+PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany.
+POSIX is a registered trademark of the Institute of Electrical and Electronic Engineers, Inc. \
+GNU C/C++ is a registered trademark of Free Software Foundation, Inc. \
+Linux is a registered trademark of Linus Torvalds. \
 Windows is a registered trademark of Microsoft Corporation in the United States and/or other countries. \
-PCAN is a registered trademark of PEAK-System Technik GmbH, Darmstadt, Germany. \
 All other company, product and service names mentioned herein may be trademarks, registered trademarks, or service marks of their respective owners.
 
 ### Hazard Note
