@@ -73,10 +73,12 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - Static library       | :heavy_check_mark: | `u3canpcb.lib`, `uvPeakCAN.lib` |
 | - 32-bit version (x86) | :heavy_check_mark: | supported |
 | - 64-bit version (x64) | :heavy_check_mark: | supported |
-| - Source code          | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
+| - Source code          | :heavy_check_mark: | BDS-2-Clause or GPL-2.0-or-later |
+| - CAN-over-Ethernet    | :x: | :x: | _not available_  |
+| - Swift wrapper        | :x: | :x: | _not available_ |
 | - Python wrapper       | :heavy_check_mark: | Python 3 |
 | - macOS wrapper        | :heavy_check_mark: | [macOS Driver and SDK](/wrapper/PCANBasic/) |
-| - Utilities            | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
+| - Utilities            | :heavy_check_mark: | CLI utilities `can_send`, `can_moni` and`can_test`|
 | - Examples             | :heavy_check_mark: | C, C++, Python |
 
 ### Change-log
