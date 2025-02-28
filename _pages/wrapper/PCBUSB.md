@@ -6,9 +6,9 @@ toc_sticky: true
 title: macOS Wrapper Library for PCAN-USB Interfaces from PEAK-System
 tag: PCBUSB-Wrapper
 type: wrapper
-latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.3/artifacts.zip
-srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.3.zip
-srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.3.tar.gz
+latest: https://github.com/mac-can/PCBUSB-Wrapper/releases/download/v0.4/artifacts.zip
+srczip: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.4.zip
+srctar: https://github.com/mac-can/PCBUSB-Wrapper/archive/tags/v0.4.tar.gz
 github: https://github.com/mac-can/PCBUSB-Wrapper
 issues: https://github.com/mac-can/PCBUSB-Wrapper/issues
 ---
@@ -68,18 +68,19 @@ Note: _UV&nbsp;Software also provides a CAN&nbsp;API&nbsp;V3 compatible [Wrapper
 | - Acknowledged write | :x: | :x: | _not supported_  |
 | - Buffered write     | :heavy_check_mark: | :heavy_check_mark: | _buffer size depends on the hardware_ |
 | Software Development Kit: | | | |
-| - PCANBasic API   | (:heavy_check_mark:) | (:heavy_check_mark:) | with the underlying [PCBUSB library](/drivers/libPCBUSB.html) |
-| - CAN API V3      | :heavy_check_mark: | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
-| - Dynamic library | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.dylib`, `libPeakCAN.dylib` |
-| - Static library  | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.a`, `libPeakCAN.a` |
-| - Source code     | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-3.0-or-later |
-| - M1 chip         | :heavy_check_mark: | :heavy_check_mark: | Universal macOS Binary |
-| - Linux support   | :heavy_check_mark: | :heavy_check_mark: | requires PCAN Linux chardev driver |
-| - Swift wrapper   | :x: | :x: | _not available_ |
-| - Python wrapper  | :heavy_check_mark: | :heavy_check_mark: | Python 3.8 |
-| - Windows wrapper | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/PCANBasic/) |
-| - Utilities       | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_moni` and `can_test`|
-| - Examples        | :heavy_check_mark: | :heavy_check_mark: | C, C++, Python |
+| - PCANBasic API     | (:heavy_check_mark:) | (:heavy_check_mark:) | with the underlying [PCBUSB library](/drivers/libPCBUSB.html) |
+| - CAN API V3        | :heavy_check_mark: | :heavy_check_mark: | [C API and C++ API](/wrapper/canapi-v3/) by UV&nbsp;Software |
+| - Dynamic library   | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.dylib`, `libPeakCAN.dylib` |
+| - Static library    | :heavy_check_mark: | :heavy_check_mark: | `libUVCANPCB.a`, `libPeakCAN.a` |
+| - Source code       | :heavy_check_mark: | :heavy_check_mark: | BDS-2-Clause or GPL-2.0-or-later |
+| - Apple silicon     | :heavy_check_mark: | :heavy_check_mark: | Universal macOS Binary |
+| - Linux support     | :heavy_check_mark: | :heavy_check_mark: | requires PCAN Linux chardev driver |
+| - CAN-over-Ethernet | :heavy_check_mark: | :heavy_check_mark: | with **RocketCAN** frame format |
+| - Swift wrapper     | :x: | :x: | _not available_ |
+| - Python wrapper    | :heavy_check_mark: | :heavy_check_mark: | Python 3 |
+| - Windows wrapper   | :heavy_check_mark: | :heavy_check_mark: | [CAN API V3 Wrapper Library](/wrapper/windows/PCANBasic/) |
+| - Utilities         | :heavy_check_mark: | :heavy_check_mark: | CLI utilities `can_send`, `can_moni`, `can_test`|
+| - Examples          | :heavy_check_mark: | :heavy_check_mark: | C, C++, Python |
 
 ### Change-log
 
