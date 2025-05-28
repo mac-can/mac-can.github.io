@@ -4,7 +4,7 @@ title:  "PCBUSB-Utilities - Version 0.6 released"
 tag: PCBUSB-Utilities
 categories: Change-log Utilities macOS Peak PCBUSB
 artifacts: https://github.com/mac-can/PCBUSB-Utilities/releases/tag/v0.6
-release: Version 0.5 SR8 (Build 1986 of July 29, 2024)
+release: Version 0.6 (Build 1986 of July 29, 2024)
 ---
 [**{{ page.release }}**]({{ page.artifacts }}):
 
