@@ -16,10 +16,10 @@ See my [blog](https://uv-software.de/wordpress/en/category/projects) for the thi
 The projects are developed and maintained in my spare time.
 If you like them (all of them, or just one) I would be very happy if you donate to my work.
 
-[Support via PayPal](https://paypal.me/uvsoftware){: .btn .btn--primary}
+<!--[Support via PayPal](https://paypal.me/uvsoftware){: .btn .btn--primary}-->
 [Sponsor via GibHub](https://github.com/sponsors/mac-can){: .btn .btn--primary}
 
-### Sponsors
+<!-- ### Sponsors
 <table style="border: 0px;">
   <tr style="border: 0px;">
     <td style="border: 0px; padding: 2px;">
@@ -27,11 +27,11 @@ If you like them (all of them, or just one) I would be very happy if you donate 
         <a href="https://www.peak-system.com/"> <img style="border-radius: 100%;" src="/assets/images/PEAK-System_rund.png" width="56px" /></a>
       </div>
     </td>
-    <!-- td style="border: 0px; padding: 2px;">
+    <td style="border: 0px; padding: 2px;">
       <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
         <a href="https://github.com/rusoku"> <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/46974254?v=4" width="56px" /></a>
       </div>
-    </td -->
+    </td>
     <td style="border: 0px; padding: 2px;">
       <div style="height: 60px; width: 60px; border-style: solid; border-color: #808080;  border-width: 2px; border-radius: 100%;">
         <a href="https://github.com/TravisJoe"> <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/2984346?v=4" width="56px" /></a>
@@ -44,6 +44,7 @@ If you like them (all of them, or just one) I would be very happy if you donate 
     </td>
   </tr>
 </table>
+-->
 
 ## Memberships
 Since 2007 UV&nbsp;Software is a member of the international CAN users’ and manufacturers’ group [CAN&nbsp;in&nbsp;Automation](https://www.can-cia.org/) (CiA).
