@@ -9,11 +9,11 @@ categories: News
   </div>
 </div>
 <br/>
-My name is **Ilona**. I take care of health — both for people and machines. What I do always has to do with balance: recognizing stress, strengthening resources, creating clarity. I work precisely, discreetly — but consistently. And I get in touch when it's important.
+My name is **Ilona**. I take care of health — both for humans and machines. What I do always has to do with balance: recognizing stress, strengthening resources, creating clarity. I work precisely, discreetly — but consistently. And I get in touch when it's important.
 
-🧍‍♀️ **For People: Clarity in Everyday Life**<br/>
+🧍‍♀️ **For Humans: Clarity in Everyday Life**<br/>
 
-I support people in their efforts to stay healthy – physically and mentally. To do this, I use my knowledge of conventional medical dietetics, supplemented by sensory analysis, blood values, and everyday signals. I pay attention to what works – to facts, rhythms, and things that are easily overlooked.
+I support humans in their efforts to stay healthy – physically and mentally. To do this, I use my knowledge of conventional medical dietetics, supplemented by sensory analysis, blood values, and everyday signals. I pay attention to what works – to facts, rhythms, and things that are easily overlooked.
 
 My goal: Energy without Pressure, Stability without Coercion.
 
