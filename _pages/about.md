@@ -10,7 +10,8 @@ As an independent software developer, I provide services in all areas related to
 I specialize in microcontroller programming and field bus systems, in particular the CAN bus and CANopen protocol.
 My services can be rendered on site or from my office in Berlin, in the form of a work order or a service agreement.
 
-See my [blog](https://uv-software.de/wordpress/en/category/projects) for the things I did.
+See my [blog](https://uv-software.de/wordpress/en/category/projects) for the things I did,
+or tune in to this [deep-dive feature](/assets/audio/uv-software_Audio_20250912_en.mp4)[¹].
 
 ## Sponsoring
 The projects are developed and maintained in my spare time.
@@ -57,3 +58,8 @@ Germany<br><br>
 Tel.: +49 30 467 99 872<br>
 Fax:  +49 30 467 99 873<br><br>
 E-Mail: <a href="mailto:info@mac-can.com">info@mac-can.com</a><br><br>
+
+---
+
+[¹] The deep-dive audio feature was created with Google NotebookML and is licensed under the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
