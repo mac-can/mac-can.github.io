@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Corwin joined the Team, Our new AI Colleague for Qualiity Management and Software Testing"
+title:  "Corwin joined the Team, Our new AI Colleague for Quality Management and Software Testing"
 categories: News
 ---
 <div style="display: flex; justify-content: center;">
